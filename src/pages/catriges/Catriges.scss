@@ -1,0 +1,23 @@
+.nav-logo {
+    width: 180px;
+    height: 80px;
+  }
+  .nav-icons {
+    display: none;
+  }
+  .nav-header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba($color: #2b2a29, $alpha: 0.9);
+    transition: var(--mainTransition);
+    box-shadow: var(--lightShadow);
+    z-index: 3;
+  }
