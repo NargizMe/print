@@ -22,14 +22,14 @@ class Cards extends Component{
             <div className="under-line"></div>
             <div className="featured-center">
                 {/* {this.showCards()} */}
-                <article className="card">
+                <NavLink className="card" to='/catriges'>
                 <div className="card-img-container">
                     <img
                     src={laserAnaloq32}
                     className="card-img"
                     alt="məhsul"
                     />
-                    <NavLink className="card-img-icon" to='/catriges'>Katric</NavLink>
+                    <button className="card-img-icon" >Katric</button>
                     {/* <FontAwesomeIcon className="card-img-icon" icon={faBookmark}/> */}
                 </div>
                 <div className="card-footer">
@@ -40,15 +40,15 @@ class Cards extends Component{
                         <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
                     </div>
                 </div>
-            </article>
-                <article className="card">
+            </NavLink>
+                <NavLink to='/catriges' className="card">
                 <div className="card-img-container">
                     <img
                     src={baraban1}
                     className="card-img"
                     alt="məhsul"
                     />
-                    <NavLink className="card-img-icon" to='/catriges'>Katric Hissəsi</NavLink>
+                    <button className="card-img-icon" >Katric Hissəsi</button>
                     {/* <FontAwesomeIcon className="card-img-icon" icon={faBookmark}/> */}
                 </div>
                 <div className="card-footer">
@@ -59,15 +59,15 @@ class Cards extends Component{
                         <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
                     </div>
                 </div>
-            </article>
-                <article className="card">
+            </NavLink>
+                <NavLink className="card" to='/catriges'>
                 <div className="card-img-container">
                     <img
                     src={toner1}
                     className="card-img"
                     alt="məhsul"
                     />
-                    <NavLink className="card-img-icon" to='/catriges'>Katric Mürəkkəbi</NavLink>
+                    <button className="card-img-icon" >Katric Mürəkkəbi</button>
                     {/* <FontAwesomeIcon className="card-img-icon" icon={faBookmark}/> */}
                 </div>
                 <div className="card-footer">
@@ -78,7 +78,7 @@ class Cards extends Component{
                         <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
                     </div>
                 </div>
-            </article>
+            </NavLink>
             </div>
         </section>
       );

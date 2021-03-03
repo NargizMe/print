@@ -39,12 +39,6 @@ render(){
                     <small className="contact-knowledge">
                         <FontAwesomeIcon icon={faSkype} className="contact-icons"/>
                         xalid.gasimov</small>
-                    <div>
-                        <a href="https://www.facebook.com/iiok.az" target="_blank" className="footer-icon">
-                            <FontAwesomeIcon icon={faFacebookSquare} /></a>
-                        <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="footer-icon">
-                            <FontAwesomeIcon icon={faInstagram}/></a>
-                    </div>
                 </div>
                 <div class="map">
                 <iframe 

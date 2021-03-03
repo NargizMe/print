@@ -19,16 +19,6 @@ footer h1{
     font-size: var(--iconFont);
     margin-right: 5px;
 }
-.footer-icon{
-    font-size: var(--iconFont);
-    transition:all 0.1s ease-in-out;
-    margin-right: 10px;
-    color: white;
-}
-.footer-icon:hover{
-    transform: translateY(-10%);
-    color: var(--primaryColor);
-}
 .contact-knowledge{
     display: inline-block;
     font-size: var(--secondTextFont);
