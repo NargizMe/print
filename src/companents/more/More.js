@@ -5,7 +5,6 @@ import './More.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
 
-import laserAnaloq1 from '../../img/catriges/laser(analoq)1.jpg';
 import laserAnaloq3 from '../../img/catriges/laser(analoq)3.jpg';
 
 class More extends Component {
@@ -25,7 +24,7 @@ class More extends Component {
         <div className='more-img'>
           <img src={this.props.img} className='more-big-img' />
           <br/>
-          <img src={laserAnaloq1} className='more-small-img' onClick={this.changeImg}/>
+          <img src={this.props.img} className='more-small-img' onClick={this.changeImg}/>
           <img src={laserAnaloq3} className='more-small-img' onClick={this.changeImg}/>
         </div>
         <div className='more-info'>
