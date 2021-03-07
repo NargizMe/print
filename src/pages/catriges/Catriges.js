@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { NavLink } from 'react-router-dom';
 import $ from 'jquery';
 import jQueryBridget from 'jquery-bridget';
 import Isotope from 'isotope-layout';
@@ -7,9 +8,11 @@ import './Catriges.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
-import {faBars} from "@fortawesome/free-solid-svg-icons";
+import { faTags } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../img/agLogo.png';
 import Footer from '../../companents/footer/Footer';
+import More from '../../companents/more/More';
+import Backdrop from '../../UI/Backdrop/Backdrop';
 
 import laserOriginal1 from '../../img/catriges/laser(original)1.png';
 import laserOriginal2 from '../../img/catriges/laser(original)2.jpg';
@@ -188,6 +191,11 @@ import laserAnaloq36 from '../../img/catriges/laser(analoq)36.jpg';
 jQueryBridget( 'isotope', Isotope, $ );
 class Catriges extends Component {
   state = {
+    showMore: false,
+    img:0,
+    price:0,
+    title:0,
+    brand:0,
     card: [
       {
           img: laserOriginal1,
@@ -1584,24 +1592,34 @@ class Catriges extends Component {
     ]
   }
 
+  componentDidMount(){
+    window.addEventListener('scroll', this.handleScroll);
+  };
+  handleScroll() {
+    if (window.pageYOffset > 62) {
+      $(".navbar").attr("class","navbar fixed");
+    } else {
+      $(".navbar").attr("class","navbar");
+    }
+  };
+
   showCards(){
     return this.state.card.map(item=>{
-        return <article className={`card ${item.type}`}>
+        return <article className={`card ${item.type}`} onClick={this.showMore}>
           <div className="card-img-container">
             <img
             src={item.img}
             className="card-img"
             alt="məhsul"
             />
-            {/* <NavLink className="card-img-icon" to='/catriges'>Ətraflı</NavLink> */}
-            {/* <FontAwesomeIcon className="card-img-icon" icon={faBookmark}/> */}
+            <button className="card-more" >Ətraflı</button>
           </div>
           <div className="card-footer">
             <h4 className="card-title">{item.title}</h4>
             <div className='card-des'>
               <p className="card-brand">{item.brand} ({item.originality})</p>
               <p className="card-price">{item.price} AZN</p>
-              {/* <FontAwesomeIcon className="card-footer-icon" icon={faTags}/> */}
+              <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
             </div>
           </div>
         </article>
@@ -1609,7 +1627,7 @@ class Catriges extends Component {
   }
 
   isotopeShow=(event)=>{
-    $('.card').css('margin-right', "5px");
+    $('.card').css('margin-right', "55px");
     let $grid = $(".featured-center").isotope({});
     let filterValue = $(event.target).attr('data-filter');
     $grid.isotope({ 
@@ -1617,13 +1635,28 @@ class Catriges extends Component {
     });
   }
 
+  changeImg = (event) => {
+    $('.more-big-img').attr('src', $(event.target).attr('src'));
+  }
+
+  showMore=(event)=>{
+    this.setState({showMore:true});
+    this.setState({img: $(event.currentTarget).children('.card-img-container').children('.card-img').attr('src')});
+    this.setState({price: $(event.currentTarget).children('.card-footer').children('.card-des').children('.card-price').text()});
+    this.setState({title: $(event.currentTarget).children('.card-footer').children('.card-title').text()});
+    this.setState({brand: $(event.currentTarget).children('.card-footer').children('.card-des').children('.card-brand').text()});
+  }
+
+  hideMore=()=>{
+    this.setState({showMore:false});
+  }
+
   render(){
     return (
       <div className="container">
-        {/* NavBar */}
         <nav className="navbar">
           <div className="nav-header">
-          <img src={logo} className="nav-logo" />
+          <NavLink to='/'><img src={logo} className="nav-logo" /></NavLink>
           </div>
           <div className="nav-icons">
           <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="nav-icon">
@@ -1635,8 +1668,14 @@ class Catriges extends Component {
           </div>
         </nav>
         <section className="featured" id="featured">
+            {this.state.showMore ? <Backdrop /> : null}
+            {this.state.showMore ? <More 
+            hideMore={this.hideMore} 
+            img={this.state.img}
+            price={this.state.price}
+            title={this.state.title} 
+            brand={this.state.brand} /> : null}
             <h2 className="subtitle">Katriclər</h2>
-            <div className="under-line"></div>
             <div className="card-menu" >
                 <button data-filter="*" className="card-menu-btn" onClick={this.isotopeShow} >Hamısı</button>
                 <button data-filter=".laser" className="card-menu-btn" onClick={this.isotopeShow}>

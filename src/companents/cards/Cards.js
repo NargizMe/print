@@ -11,7 +11,6 @@ import toner1 from '../../img/ink/toner1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTags } from '@fortawesome/free-solid-svg-icons';
-import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 // import { faBarcode } from '@fortawesome/free-solid-svg-icons';
 class Cards extends Component{
 

@@ -1,0 +1,63 @@
+.more{
+  display: flex;
+  justify-content: space-between;
+  padding: var(--mainPadding);
+  width: 650px;
+  height: 400px;
+  position: fixed;
+  z-index: 7;
+  background-color: var(--mainWhite);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.more-small-img{
+  width: 110px;
+  height: 20%;
+  margin-right: 7px;
+  border: 1px solid var(--mainGray);
+}
+.more-big-img{
+  height: 80%;
+  width: 100%;
+  border: 1px solid var(--mainGray);
+}
+.more-info-name{
+  font-family: "Lato", sans-serif;
+  letter-spacing: var(--mainSpacing);
+  margin: 0;
+}
+.more-info-price{
+  font-size: 31px;
+  font-family: "Lato", sans-serif;
+  color: blue;
+  letter-spacing: var(--mainSpacing);
+}
+.more-info table{
+  font-family: "Lato", sans-serif;
+  letter-spacing: var(--mainSpacing);
+  width: 300px;
+  height: 60px;
+}
+.more-info table .name{
+  font-weight: bold;
+}
+.more-img{
+  margin-right: 10px;
+}
+.more-info{
+  position: relative;
+}
+.more-close{
+  position: absolute;
+  font-size: 33px;
+  color: var(--mainBlack);
+  left: 98%;
+  top: -3%;
+  cursor: pointer;
+  transition: var(--mainTransition);
+}
+.more-close :hover{
+  transform: scale(0.9);
+  color: var(--primaryColor);
+}

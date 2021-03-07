@@ -14,8 +14,8 @@ function Main() {
       <NavBar/>
       <Panel/>
       <About/>
-      <Cards/>
       <Services/>
+      <Cards/>
       <Footer/>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 import '../../App.scss';
 import $ from "jquery"; 
@@ -28,7 +29,7 @@ class NavBar extends Component{
       return (
         <nav className="navbar">
             <div className="nav-header">
-            <img src={logo} className="nav-logo" />
+            <NavLink to='/'><img src={logo} className="nav-logo" /></NavLink>
             <button className="nav-toggle"
             type="button"
             id="nav-toggle"
