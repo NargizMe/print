@@ -6,13 +6,15 @@ import Isotope from 'isotope-layout';
 import '../../App.scss';
 import './Catriges.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram} from "@fortawesome/free-brands-svg-icons";
-import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
 import { faTags } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../img/agLogo.png';
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+
 import Footer from '../../companents/footer/Footer';
+import Services from '../../companents/services/Services';
 import More from '../../companents/more/More';
 import Backdrop from '../../UI/Backdrop/Backdrop';
+import NavBar from '../../companents/navbar/Navbar';
+
 
 import laserOriginal1 from '../../img/catriges/laser(original)1.png';
 import laserOriginal2 from '../../img/catriges/laser(original)2.jpg';
@@ -1596,16 +1598,16 @@ class Catriges extends Component {
     window.addEventListener('scroll', this.handleScroll);
   };
   handleScroll() {
-    if (window.pageYOffset > 62) {
-      $(".navbar").attr("class","navbar fixed");
+    if (window.pageYOffset > 300) {
+      $(".up").css("display","inherit");
     } else {
-      $(".navbar").attr("class","navbar");
+        $(".up").css("display","none");
     }
   };
 
   showCards(){
     return this.state.card.map(item=>{
-        return <article className={`card ${item.type}`} onClick={this.showMore}>
+        return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
           <div className="card-img-container">
             <img
             src={item.img}
@@ -1616,22 +1618,23 @@ class Catriges extends Component {
           </div>
           <div className="card-footer">
             <h4 className="card-title">{item.title}</h4>
-            <div className='card-des'>
+            {/* <div className='card-des'> */}
               <p className="card-brand">{item.brand} ({item.originality})</p>
-              <p className="card-price">{item.price} AZN</p>
+              <p className="card-price">{item.price} AZN
               <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </div>
+              </p>    
+            {/* </div> */}
           </div>
         </article>
     });
   }
 
   isotopeShow=(event)=>{
-    $('.card').css('margin-right', "55px");
+    $('.card').css('margin-right', "1rem");
     let $grid = $(".featured-center").isotope({});
     let filterValue = $(event.target).attr('data-filter');
     $grid.isotope({ 
-        filter: filterValue,
+        filter: filterValue
     });
   }
 
@@ -1653,20 +1656,8 @@ class Catriges extends Component {
 
   render(){
     return (
-      <div className="container">
-        <nav className="navbar">
-          <div className="nav-header">
-          <NavLink to='/'><img src={logo} className="nav-logo" /></NavLink>
-          </div>
-          <div className="nav-icons">
-          <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="nav-icon">
-              <FontAwesomeIcon icon={faInstagram} />
-          </a>
-          <a href="https://www.twitter.com" target="_blank" className="nav-icon">
-              <FontAwesomeIcon icon={faFacebookSquare} />
-          </a>
-          </div>
-        </nav>
+      <div className="container" id='container'>
+          <NavBar/>
         <section className="featured" id="featured">
             {this.state.showMore ? <Backdrop /> : null}
             {this.state.showMore ? <More 
@@ -1678,20 +1669,28 @@ class Catriges extends Component {
             <h2 className="subtitle">Katriclər</h2>
             <div className="card-menu" >
                 <button data-filter="*" className="card-menu-btn" onClick={this.isotopeShow} >Hamısı</button>
-                <button data-filter=".laser" className="card-menu-btn" onClick={this.isotopeShow}>
-                Laser katriclər
+                <button data-filter=".laser.analoq" className="card-menu-btn" onClick={this.isotopeShow}>
+                Laser (analoq)
                 </button>
-                <button data-filter=".ink" className="card-menu-btn" onClick={this.isotopeShow}>
-                İNK katriclər
+                <button data-filter=".laser.orijinal" className="card-menu-btn" onClick={this.isotopeShow}>
+                Laser (orijinal)
                 </button>
-                <button data-filter=".tuba" className="card-menu-btn" onClick={this.isotopeShow}>
-                TUBA katriclər
+                <button data-filter=".ink.orijinal" className="card-menu-btn" onClick={this.isotopeShow}>
+                İNK (orijinal)
+                </button>
+                <button data-filter=".tuba.analoq" className="card-menu-btn" onClick={this.isotopeShow}>
+                TUBA (analoq)
+                </button>
+                <button data-filter=".tuba.orijinal" className="card-menu-btn" onClick={this.isotopeShow}>
+                TUBA (orijinal)
                 </button>
             </div>
             <div className="featured-center">
                 {this.showCards()}
+                <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
             </div>
         </section>
+        <Services/>
         <Footer/>
       </div>
     );

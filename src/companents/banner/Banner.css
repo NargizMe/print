@@ -1,92 +1,110 @@
 .hero {
 display: flex;
-min-height: calc(100vh - 62px);
-background: var(--primaryColor);
-justify-content: center;
-align-items: center;
+height: 70vh;
+width: 100%;
+background: var(--mainWhite);
+/* justify-content: space-between; */
+/* align-items: center; */
+}
+.hero-img{
+  width: 50%;
+  height: 100%;
 }
 .hero-banner {
-text-align: center;
-color: var(--mainWhite);
-padding: 0 2rem;
+  text-align: right;
+  color: var(--mainWhite);
+  padding: 0 2rem;
+  width: 50%;
+  align-self: center;
 }
 .hero-title {
-    font-family: "Lato",sans-serif;
-    color: var(--mainWhite);
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    letter-spacing: 0.4rem;
-    animation: slideFromRight 2s ease-in-out 1;
+  font-family: "Lato",sans-serif;
+  color: var(--mainBlack);
+  /* text-transform: uppercase; */
+  margin-bottom: 2rem;
+  letter-spacing: 0.4rem;
+  animation: slideFromRight 2s ease-in-out 1;
 }
 .hero-text {
-    color: var(--mainWhite);
-    font-family: "Lato",sans-serif;
-    width: 85%;
-    margin: 0 auto;
-    letter-spacing: var(--mainSpacing);
-    font-weight: 400;
-    margin-bottom: 2rem;
-    animation: slideFromLeft 2s ease-in-out 1;
+  color: var(--mainBlack);
+  font-family: "Lato",sans-serif;
+  margin: 0;
+  letter-spacing: var(--mainSpacing);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  animation: slideFromLeft 2s ease-in-out 1;
 }
 .btn-white{
-    font-family: "Lato",sans-serif;
-    text-transform: uppercase;
-    letter-spacing: var(--mainSpacing);
-    color: var(--mainWhite);
-    border: 2px solid var(--mainWhite);
-    padding: 0.9rem 1.6rem;
-    display: inline-block;
-    transition: var(--mainTransition);
-    cursor: pointer;
-    animation: show 2s ease-in-out 1;
+  font-family: "Lato",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  padding: 13px 16px;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+  animation: show 2s ease-in-out 1;
+
+  background-color: var(--mainBlack);
+  border: 2px solid var(--primaryColor);
+  color: var(--primaryColor);
+  font-weight: bold;
 }
 .btn-white:hover {
-    background-color: var(--mainWhite);
-    color: var(--mainBlack);
+  background-color: var(--mainWhite);
+  border: 2px solid var(--mainBlack);
+  color: var(--mainBlack);
 }
 @media screen and (min-width: 768px) {
-    .hero-title {
-        font-size: 4.5rem;
-    }
-    .hero-text {
-        width: 70%;
-    }
+  /* .hero-title {
+    font-size: 4.5rem;
+  } */
+  /* .hero-text {
+    width: 70%;
+  } */
 }
-@keyframes show {
-    0% {
-      opacity: 0;
-      transform: scale(2);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
+/* @keyframes show {
+  0% {
+    opacity: 0;
+    transform: scale(2);
   }
-  @keyframes slideFromRight {
-    0% {
-      transform: translateX(1000px);
-    }
-    50% {
-      transform: translateX(-200px);
-    }
-    75% {
-      transform: translateX(50px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
-  @keyframes slideFromLeft {
-    0% {
-      transform: translateX(-1000px);
-    }
-    50% {
-      transform: translateX(200px);
-    }
-    75% {
-      transform: translateX(-50px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+} */
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(1000px);
   }
+  50% {
+    transform: translateX(-200px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  75% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 992px){
+  .hero-banner{
+    display: none;
+  }
+  .hero-img{
+    width: 100%;
+  }
+}

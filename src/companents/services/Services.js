@@ -13,8 +13,8 @@ class Services extends Component{
     render(){
       return (
         <section className="services" id="services">
-            <h2 className="title">Xidmətlərimiz</h2>
-            <div className="under-line"></div>
+            {/* <h2 className="title">Xidmətlərimiz</h2>
+            <div className="under-line"></div> */}
             <div className="section-center services-center">
                 <article className="service">
                 <span className="service-icon">
