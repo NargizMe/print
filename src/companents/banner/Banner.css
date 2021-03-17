@@ -1,38 +1,42 @@
 .hero {
 display: flex;
-height: 70vh;
+height: 73vh;
 width: 100%;
-background: var(--mainWhite);
 /* justify-content: space-between; */
 /* align-items: center; */
 }
 .hero-img{
-  width: 50%;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.hero-img img{
+  width: 80%;
   height: 100%;
 }
 .hero-banner {
-  text-align: right;
-  color: var(--mainWhite);
+  text-align: left;
+  color: var(--mainBlack);
   padding: 0 2rem;
   width: 50%;
-  align-self: center;
+  align-self: flex-start;
 }
 .hero-title {
   font-family: "Lato",sans-serif;
-  color: var(--mainBlack);
   /* text-transform: uppercase; */
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
   letter-spacing: 0.4rem;
   animation: slideFromRight 2s ease-in-out 1;
 }
 .hero-text {
-  color: var(--mainBlack);
   font-family: "Lato",sans-serif;
   margin: 0;
   letter-spacing: var(--mainSpacing);
   font-weight: 400;
-  margin-bottom: 2rem;
   animation: slideFromLeft 2s ease-in-out 1;
+  width: 60%;
 }
 .btn-white{
   font-family: "Lato",sans-serif;

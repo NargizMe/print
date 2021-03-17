@@ -4,22 +4,19 @@ import { NavLink } from 'react-router-dom';
 import readXlsxFile from 'read-excel-file';
 import './Cards.scss';
 import '../../App.scss';
-import laserAnaloq32 from '../../img/catriges/laser(analoq)32.jpg';
-import baraban1 from '../../img/catrigeParts/baraban1.jpg';
-import toner1 from '../../img/ink/toner1.jpg';
-import ink1 from '../../img/ink/ink1.jpg';
+import katric from '../../img/katric1.png';
+import cartigePart from '../../img/cartridgesPart.jpg';
+import toner from '../../img/toner.jpg';
+import ink from '../../img/ink.jpg';
 
 class Cards extends Component{
 
     render(){
       return (
-        <section className="featured" id="featured">
-            {/* <h2 className="subtitle">Məhsullarımız</h2>
-            <div className="under-line"></div> */}
-            <div className="featured-center">
+        <section className="featured-center">
             <NavLink className="feature-card" to='/catriges'>
                 <img
-                src={laserAnaloq32}
+                src={katric}
                 className="feature-card-img"
                 alt="məhsul"
                 />
@@ -27,15 +24,7 @@ class Cards extends Component{
             </NavLink>
             <NavLink className="feature-card" to='/catriges'>
                 <img
-                src={baraban1}
-                className="feature-card-img"
-                alt="məhsul"
-                />
-                <button className="feature-card-button" >Katric Hissələri</button>
-            </NavLink>
-            <NavLink className="feature-card" to='/catriges'>
-                <img
-                src={toner1}
+                src={toner}
                 className="feature-card-img"
                 alt="məhsul"
                 />
@@ -43,13 +32,20 @@ class Cards extends Component{
             </NavLink>
             <NavLink className="feature-card" to='/catriges'>
                 <img
-                src={ink1}
+                src={cartigePart}
+                className="feature-card-img"
+                alt="məhsul"
+                />
+                <button className="feature-card-button" >Katric Hissələri</button>
+            </NavLink>
+            <NavLink className="feature-card" to='/catriges'>
+                <img
+                src={ink}
                 className="feature-card-img"
                 alt="məhsul"
                 />
                 <button className="feature-card-button" >Mürəkkəb (ink)</button>
             </NavLink>
-            </div>
         </section>
       );
     } 

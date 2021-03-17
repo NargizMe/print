@@ -6,6 +6,7 @@ import Footer from '../companents/footer/Footer';
 import Panel from '../companents/banner/Banner';
 import Services from '../companents/services/Services';
 import Cards from '../companents/cards/Cards';
+import LittleBanner from '../companents/littleBanner/LittleBanner';
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
       <NavBar/>
       <Panel/>
       <Cards/>
+      <LittleBanner/>
       <Services/>
       <Footer/>
     </div>

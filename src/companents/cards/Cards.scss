@@ -1,24 +1,20 @@
-.featured {
-  background: var(--mainWhite);
-  padding: var(--mainPadding);
-}
 .featured-center {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 40px;
-  position: relative;
+  padding: var(--mainPadding);
 }
 .feature-card{
   margin-bottom: 2rem;
   // max-width: 200px;
   max-width: 260px;
-  box-shadow: var(--lightShadow);
+  // box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   height: 270px;
   position: relative;
   border-radius: 13px;
-  border: 2px solid orange;
+  border: 1px solid orange;
 }
 .feature-card:hover {
   .feature-card-button{
@@ -34,7 +30,8 @@
 .feature-card-img {
   width: 100%;
   height: 80%;
-  border-radius: 13px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
 }
 .feature-card-button {
   color: var(--mainBlack);

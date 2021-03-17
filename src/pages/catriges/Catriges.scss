@@ -1,3 +1,13 @@
+.catridges{
+  position: relative;
+}
+.catridges-center {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: var(--mainPadding);
+}
 .card {
   margin-bottom: 2rem;
   transition: var(--mainTransition);
@@ -15,7 +25,6 @@
   font-size: 15px;
   border: 1px solid var(--primaryColor);
   padding: 4px 8px;
-  // letter-spacing: var(--mainSpacing);
   background: linear-gradient(to right, var(--mainBlack) 50%, var(--primaryColor) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
@@ -43,8 +52,6 @@
   height: 100%;
   border-top-right-radius: 13px;
   border-top-left-radius: 13px;
-  // border-top-right-radius: 13px;
-  // border-top-left-radius: 13px;
 }
 .card-footer-icon {
   position: absolute;
@@ -68,11 +75,6 @@
   transition: all 0.2s linear;
   font-weight: bold;
 }
-// .card-des{
-//   display: flex;
-//   justify-content: space-between;
-//   position: relative;
-// }
 .card-footer {
   text-align: center;
   padding-right: 18px;
@@ -98,9 +100,6 @@
   font-weight: bold;
   margin: 0;
   position: relative;
-  // background-color: var(--primaryColor);
-  // display: inline-block;
-  /* letter-spacing: var(--mainSpacing); */
 }
 .card-menu {
 margin: 20px 0 30px 0;
@@ -125,14 +124,14 @@ color: white;
 border: 2px solid var(--mainBlack);
 }
 .up{
-  display: none;
   position: fixed;
   font-size: 30px;
-  color: var(--mainBlack);
+  color: var(--primaryColor);
   left: 97%;
   top: 80%;
   cursor: pointer;
   animation: upDown 1s ease-in-out infinite;
+  z-index:10;
 }
 @keyframes upDown {
   0% {

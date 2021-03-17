@@ -2,7 +2,8 @@ import React from "react";
 import {Route, Switch} from 'react-router-dom';
 import {  } from 'react-router-dom';
 import './App.scss';
-import Catriges from './pages/catriges/Catriges';
+import Tuba from './pages/catriges/Tuba';
+import Lazer from './pages/catriges/Lazer';
 import About from './companents/about/About';
 import Main from './main/Main';
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <Switch>
       <Route exact path='/' component={Main} />
-      <Route exact path='/catriges' component={Catriges}  />
+      <Route exact path='/tuba' component={Tuba}  />
+      <Route exact path='/laser' component={Lazer}  />
       <Route exact path='/about' component={About}  />
     </Switch>
   );

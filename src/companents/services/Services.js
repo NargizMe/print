@@ -23,8 +23,8 @@ class Services extends Component{
                 <div className="service-info">
                     <h3 className="service-title">Münasib Qiymət</h3>
                     <p className="service-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                    expedita eligendi non!
+                    Premium ketfiyyətli Aztoner katricləri printerlərinizə
+                    ziyan vermir, əksinə çap xərclərinizi minimuma endirir.
                     </p>
                 </div>
                 </article>
@@ -35,8 +35,8 @@ class Services extends Component{
                 <div className="service-info">
                     <h3 className="service-title">Yüksək Keyfiyyət</h3>
                     <p className="service-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                    expedita eligendi non!
+                    Aztoner katricləri ISO standartlarına uyğun istehsal olunur. Bu da "məhsulun təhlükəsiz, etibarlı və
+                    ketfiyyətli olması" deməkdir.
                     </p>
                 </div>
                 </article>
@@ -47,8 +47,7 @@ class Services extends Component{
                 <div className="service-info">
                     <h3 className="service-title">Məhsul Çeşidi</h3>
                     <p className="service-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                    expedita eligendi non!
+                    Şirkətimiz müxtəlif növ katriclərin satışı, dolumu və s. xidmətləri ilə fəaliyyətdədir.
                     </p>
                 </div>
                 </article>

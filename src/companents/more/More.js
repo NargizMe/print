@@ -5,8 +5,6 @@ import './More.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
 
-import laserAnaloq3 from '../../img/catriges/laser(analoq)3.jpg';
-
 class More extends Component {
 
   changeImg = (event) => {
@@ -25,7 +23,7 @@ class More extends Component {
           <img src={this.props.img} className='more-big-img' />
           <br/>
           <img src={this.props.img} className='more-small-img' onClick={this.changeImg}/>
-          <img src={laserAnaloq3} className='more-small-img' onClick={this.changeImg}/>
+          <img  className='more-small-img' onClick={this.changeImg}/>
         </div>
         <div className='more-info'>
           <FontAwesomeIcon icon={faTimesCircle} className='more-close' onClick={this.hideMore} />
@@ -33,13 +31,13 @@ class More extends Component {
           <h1 className='more-info-price'>{this.props.price}</h1>
           <table>
             <tr>
-                <td className='name'>Marka: </td>
-                <td>{this.props.brand}</td>
+              <td className='name'>Marka: </td>
+              <td>{this.props.brand}</td>
             </tr>
-            <tr>
-                <td className='name'>Model: </td>
-                <td></td>
-            </tr>
+            {/* <tr>
+              <td className='name'>Model: </td>
+              <td></td>
+            </tr> */}
           </table>
         </div>
       </div>

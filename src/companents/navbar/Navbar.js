@@ -6,6 +6,7 @@ import $ from "jquery";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../img/agLogo.png';
 
 class NavBar extends Component{
@@ -52,12 +53,51 @@ class NavBar extends Component{
           </button> 
         </div>
         <div className="nav-links" >
-          <NavLink to='/about' className="nav-link">Haqqımızda</NavLink>
+          <NavLink className="nav-link" to='/about'>Haqqımızda</NavLink>
           <a className="nav-link" href="#services">Xidmətlər</a>
-          <NavLink className="nav-link" to='/catriges'>Katriclər</NavLink>
-          <NavLink className="nav-link" to='/catriges'>Toner</NavLink>
-          <NavLink className="nav-link" to='/catriges'>Katric Hissələri</NavLink>
-          <NavLink className="nav-link" to='/catriges'>Mürəkkəb</NavLink>
+          <div className="dropdown">
+            <button className="nav-link">Katriclər 
+            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
+            </button>
+            <div className="dropdown-content">
+              <NavLink to='/laser' className='dropdown-link'>Lazer</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>İNK</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Tuba</NavLink>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="nav-link">Toner və Mürəkkəblər
+            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
+            </button>
+            <div className="dropdown-content">
+              <NavLink to='/tuba' className='dropdown-link'>Toner</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Mürəkkəblər</NavLink>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="nav-link">Katric Hissələri
+            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
+            </button>
+            <div className="dropdown-content">
+              <NavLink to='/tuba' className='dropdown-link'>Baraban</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Maqnit val</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Rakel (Blade)</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Karatron (PCR)</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Çiplər</NavLink>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="nav-link">Printer Hissələri
+            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
+            </button>
+            <div className="dropdown-content">
+              <NavLink to='/tuba' className='dropdown-link'>Kağız götürən rolik</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Rezin val</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Businqlər</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Termoplyonka</NavLink>
+              <NavLink to='/tuba' className='dropdown-link'>Termoelement</NavLink>
+            </div>
+          </div>
         </div>
         <form className='find'>
           <input type='text' placeholder="Axtar" className='search-input'></input>
