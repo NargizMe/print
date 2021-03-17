@@ -6,6 +6,7 @@ import './Cards.scss';
 import '../../App.scss';
 import katric from '../../img/katric1.png';
 import cartigePart from '../../img/cartridgesPart.jpg';
+import printerPart from '../../img/printerParts.jpg';
 import toner from '../../img/toner.jpg';
 import ink from '../../img/ink.jpg';
 
@@ -45,6 +46,14 @@ class Cards extends Component{
                 alt="məhsul"
                 />
                 <button className="feature-card-button" >Mürəkkəb (ink)</button>
+            </NavLink>
+            <NavLink className="feature-card" to='/catriges'>
+                <img
+                src={printerPart}
+                className="feature-card-img"
+                alt="məhsul"
+                />
+                <button className="feature-card-button" >Printer Hissələri</button>
             </NavLink>
         </section>
       );

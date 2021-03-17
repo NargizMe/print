@@ -65,15 +65,8 @@ class NavBar extends Component{
               <NavLink to='/tuba' className='dropdown-link'>Tuba</NavLink>
             </div>
           </div>
-          <div className="dropdown">
-            <button className="nav-link">Toner və Mürəkkəblər
-            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </button>
-            <div className="dropdown-content">
-              <NavLink to='/tuba' className='dropdown-link'>Toner</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Mürəkkəblər</NavLink>
-            </div>
-          </div>
+          <NavLink to='/tuba' className='nav-link'>Toner</NavLink>
+          <NavLink to='/tuba' className='nav-link'>Mürəkkəblər</NavLink>
           <div className="dropdown">
             <button className="nav-link">Katric Hissələri
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
