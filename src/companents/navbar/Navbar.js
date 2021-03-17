@@ -66,7 +66,7 @@ class NavBar extends Component{
             </div>
           </div>
           <NavLink to='/tuba' className='nav-link'>Toner</NavLink>
-          <NavLink to='/tuba' className='nav-link'>Mürəkkəblər</NavLink>
+          <NavLink to='/ink' className='nav-link'>Mürəkkəblər</NavLink>
           <div className="dropdown">
             <button className="nav-link">Katric Hissələri
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>

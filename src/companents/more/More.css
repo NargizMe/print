@@ -36,11 +36,12 @@
 .more-info table{
   font-family: "Lato", sans-serif;
   letter-spacing: var(--mainSpacing);
-  width: 300px;
+  /* width: 130px; */
   height: 60px;
 }
 .more-info table .name{
   font-weight: bold;
+  /* width: 60px; */
 }
 .more-img{
   margin-right: 10px;
