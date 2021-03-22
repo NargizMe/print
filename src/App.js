@@ -2,9 +2,10 @@ import React from "react";
 import {Route, Switch} from 'react-router-dom';
 import {  } from 'react-router-dom';
 import './App.scss';
-import Tuba from './pages/catriges/Tuba';
-import Lazer from './pages/catriges/Lazer';
-import Ink from './pages/catriges/Ink';
+import Tuba from './pages/detailCards/Tuba';
+import Lazer from './pages/detailCards/Lazer';
+import Ink from './pages/detailCards/Ink';
+import Toner from './pages/detailCards/Toner';
 import About from './companents/about/About';
 import Main from './main/Main';
 
@@ -15,6 +16,7 @@ function App() {
       <Route exact path='/tuba' component={Tuba}  />
       <Route exact path='/laser' component={Lazer}  />
       <Route exact path='/ink' component={Ink}  />
+      <Route exact path='/toner' component={Toner}  />
       <Route exact path='/about' component={About}  />
     </Switch>
   );

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../img/agLogo.png';
 
 class NavBar extends Component{
@@ -54,18 +55,38 @@ class NavBar extends Component{
         </div>
         <div className="nav-links" >
           <NavLink className="nav-link" to='/about'>Haqqımızda</NavLink>
-          <a className="nav-link" href="#services">Xidmətlər</a>
           <div className="dropdown">
             <button className="nav-link">Katriclər 
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
             </button>
             <div className="dropdown-content">
-              <NavLink to='/laser' className='dropdown-link'>Lazer</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>İNK</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Tuba</NavLink>
+              <div className='dropdown-side'>
+                <NavLink to='/laser' className='dropdown-link'>Lazer</NavLink>
+                <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
+                <div className='side-link'>
+                  <NavLink to='/laser' className='dropdown-link'>Orijinal</NavLink>
+                  <NavLink to='/laser' className='dropdown-link'>Analoq</NavLink>
+                </div>
+              </div>
+              <div className='dropdown-side'>
+                <NavLink to='/tuba' className='dropdown-link'>Tuba</NavLink>
+                <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
+                <div className='side-link'>
+                  <NavLink to='/tuba' className='dropdown-link'>Orijinal</NavLink>
+                  <NavLink to='/tuba' className='dropdown-link'>Analoq</NavLink>
+                </div>
+              </div>
+              <div className='dropdown-side'>
+                <NavLink to='/tuba' className='dropdown-link'>İNK</NavLink>
+                <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
+                <div className='side-link'>
+                  <NavLink to='/tuba' className='dropdown-link'>Orijinal</NavLink>
+                  <NavLink to='/tuba' className='dropdown-link'>Analoq</NavLink>
+                </div>
+              </div>
             </div>
           </div>
-          <NavLink to='/tuba' className='nav-link'>Toner</NavLink>
+          <NavLink to='/toner' className='nav-link'>Toner</NavLink>
           <NavLink to='/ink' className='nav-link'>Mürəkkəblər</NavLink>
           <div className="dropdown">
             <button className="nav-link">Katric Hissələri

@@ -4,7 +4,7 @@ import $ from 'jquery';
 import jQueryBridget from 'jquery-bridget';
 import Isotope from 'isotope-layout';
 import '../../App.scss';
-import './Catriges.scss';
+import './DetailCards.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTags } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';

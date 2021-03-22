@@ -94,10 +94,7 @@
   position: absolute;
   background-color:whitesmoke;
   min-width: 100px;
-  // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 500;
-  // border: 1px solid black ;
-  // border-top: none;
 }
 
 .dropdown-link {
@@ -118,4 +115,23 @@
 }
 .down-icon{
   margin-left: 3px;
+}
+.dropdown-side{
+  position: relative;
+}
+.side-link{
+  display: none;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.dropdown-side:hover .side-link {
+  display: block;
+}
+.right-icon{
+  position: absolute;
+  left: 85%;
+  top: 28%;
 }

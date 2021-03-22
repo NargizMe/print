@@ -4,7 +4,7 @@ import $ from 'jquery';
 import jQueryBridget from 'jquery-bridget';
 import Isotope from 'isotope-layout';
 import '../../App.scss';
-import './Catriges.scss';
+import './DetailCards.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTags } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
@@ -16,12 +16,12 @@ import Backdrop from '../../UI/Backdrop/Backdrop';
 import NavBar from '../../companents/navbar/Navbar';
 import Banner from '../../companents/banner/Banner';
 
-import ink1 from '../../img/ink/ink1.jpg';
+import toner1 from '../../img/ink/toner1.jpg';
 import ink2 from '../../img/ink/ink2.jpg';
 import ink3 from '../../img/ink/ink3.jpg';
 
 jQueryBridget( 'isotope', Isotope, $ );
-class Ink extends Component {
+class Toner extends Component {
   state = {
     showMore: false,
     img:0,
@@ -30,23 +30,23 @@ class Ink extends Component {
     brand:0,
     card: [
       {
-          img: ink1,
-          title:'Epson L800 Printeri Ucun 70 Ml Yellow',
-          brand:'Epson',
-          price:'30.00'
+          img: toner1,
+          title:'Brother Universal Toner - (1000gr)',
+          brand:'İTDL',
+          price:'32.00'
       },
       {
-          img: ink2,
-          title:'Epson Printeri Ucun 100 Ml Cyan',
-          brand:'Epson',
-          price:'2.50'
+          img: toner1,
+          title:'Brother Universal Toner - (1000gr)',
+          brand:'İTDL',
+          price:'32.00'
       },
       {
-          img: ink3,
-          title:'Epson Printeri Ucun 70 Ml Magenta',
-          brand:'Epson',
-          price:'16.00'
-      }
+          img: toner1,
+          title:'Brother Universal Toner - (1000gr)',
+          brand:'İTDL',
+          price:'32.00'
+      },
     ]
   }
 
@@ -103,7 +103,7 @@ class Ink extends Component {
           price={this.state.price}
           title={this.state.title} 
           brand={this.state.brand} /> : null}
-          <h2 className="subtitle">Mürəkkəblər (ink)</h2>
+          <h2 className="subtitle">Toner</h2>
           <div className="catridges-center">
             {this.showCards()}
           </div>
@@ -116,4 +116,4 @@ class Ink extends Component {
   }
 }
 
-export default Ink;
+export default Toner;
