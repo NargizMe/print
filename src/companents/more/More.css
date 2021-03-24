@@ -1,15 +1,20 @@
 .more{
   display: flex;
   justify-content: space-between;
-  padding: var(--mainPadding);
+  padding: 1rem;
   width: 650px;
-  height: 400px;
+  height: 410px;
   position: fixed;
   z-index: 7;
   background-color: var(--mainWhite);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.more-img{
+  margin-right: 10px;
+  width: 70%;
+  border: 1px solid var(--mainGray);
 }
 .more-small-img{
   width: 110px;
@@ -18,47 +23,59 @@
   border: 1px solid var(--mainGray);
 }
 .more-big-img{
-  height: 80%;
+  height: 100%;
   width: 100%;
-  border: 1px solid var(--mainGray);
 }
 .more-info-name{
   font-family: "Lato", sans-serif;
   letter-spacing: var(--mainSpacing);
   margin: 0;
+  font-size: 25px;
 }
 .more-info-price{
   font-size: 31px;
   font-family: "Lato", sans-serif;
-  color: blue;
+  color: orange;
   letter-spacing: var(--mainSpacing);
+  position: relative;
+  display: inline-block;
 }
 .more-info table{
   font-family: "Lato", sans-serif;
-  letter-spacing: var(--mainSpacing);
-  /* width: 130px; */
   height: 60px;
 }
 .more-info table .name{
   font-weight: bold;
-  /* width: 60px; */
-}
-.more-img{
-  margin-right: 10px;
-}
-.more-info{
-  position: relative;
 }
 .more-close{
   position: absolute;
-  font-size: 33px;
+  font-size: 31px;
   color: var(--mainBlack);
-  left: 98%;
-  top: -3%;
+  left: 95%;
+  top: 1%;
   cursor: pointer;
   transition: var(--mainTransition);
 }
 .more-close :hover{
   transform: scale(0.9);
   color: var(--primaryColor);
+}
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 200px;
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  width: 50px;
+  height: 50px;
+}
+.more-info-icon{
+  position: absolute;
+  color: var(--mainBlack);
+  font-size: 16px;
+  top: 90%;
+  left: 100%;
 }

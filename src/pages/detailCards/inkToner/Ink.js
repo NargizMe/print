@@ -1,57 +1,32 @@
 import React, {Component} from "react";
-import { NavLink } from 'react-router-dom';
 import $ from 'jquery';
-import jQueryBridget from 'jquery-bridget';
-import Isotope from 'isotope-layout';
-import '../../App.scss';
-import './DetailCards.scss';
+import '../../../App.scss';
+import '../DetailCards.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTags } from '@fortawesome/free-solid-svg-icons';
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+import { faTags, faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
-import Footer from '../../companents/footer/Footer';
-import Services from '../../companents/services/Services';
-import More from '../../companents/more/More';
-import Backdrop from '../../UI/Backdrop/Backdrop';
-import NavBar from '../../companents/navbar/Navbar';
-import Banner from '../../companents/banner/Banner';
+import Footer from '../../../companents/footer/Footer';
+import Services from '../../../companents/services/Services';
+import More from '../../../companents/more/More';
+import Backdrop from '../../../UI/Backdrop/Backdrop';
+import NavBar from '../../../companents/navbar/Navbar';
+import Banner from '../../../companents/banner/Banner';
 
-import toner1 from '../../img/ink/toner1.jpg';
-import ink2 from '../../img/ink/ink2.jpg';
-import ink3 from '../../img/ink/ink3.jpg';
+import {inkTonerData} from '../../../main/inkTonerData';
 
-jQueryBridget( 'isotope', Isotope, $ );
-class Toner extends Component {
+class Ink extends Component {
   state = {
     showMore: false,
     img:0,
     price:0,
     title:0,
     brand:0,
-    card: [
-      {
-          img: toner1,
-          title:'Brother Universal Toner - (1000gr)',
-          brand:'İTDL',
-          price:'32.00'
-      },
-      {
-          img: toner1,
-          title:'Brother Universal Toner - (1000gr)',
-          brand:'İTDL',
-          price:'32.00'
-      },
-      {
-          img: toner1,
-          title:'Brother Universal Toner - (1000gr)',
-          brand:'İTDL',
-          price:'32.00'
-      },
-    ]
+    model:0
   }
-
+  
   showCards(){
-    return this.state.card.map(item=>{
+    return inkTonerData.map(item=>{
+      if(item.type == 'nonToner'){
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
           <img
@@ -63,15 +38,16 @@ class Toner extends Component {
         </div>
         <div className="card-footer">
           <h4 className="card-title">{item.title}</h4>
-          {/* <div className='card-des'> */}
-            <p className="card-brand">{item.brand}</p>
-            <p className="card-price">{item.price} AZN
-            <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </p>    
-          {/* </div> */}
+          <p className="card-brand">{item.brand}</p>
+          <p className="card-model">{item.model}</p>
+          <p className="card-price">{item.price} AZN
+          <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
+          </p>    
         </div>
       </article>
-    });
+    }
+  }
+    );
   }
 
   changeImg = (event) => {
@@ -84,6 +60,7 @@ class Toner extends Component {
     this.setState({price: $(event.currentTarget).children('.card-footer').children('.card-price').text()});
     this.setState({title: $(event.currentTarget).children('.card-footer').children('.card-title').text()});
     this.setState({brand: $(event.currentTarget).children('.card-footer').children('.card-brand').text()});
+    this.setState({model: $(event.currentTarget).children('.card-footer').children('.card-model').text()});
   }
 
   hideMore=()=>{
@@ -102,8 +79,9 @@ class Toner extends Component {
           img={this.state.img}
           price={this.state.price}
           title={this.state.title} 
+          model={this.state.model} 
           brand={this.state.brand} /> : null}
-          <h2 className="subtitle">Toner</h2>
+          <h2 className="subtitle">Mürəkkəblər (ink)</h2>
           <div className="catridges-center">
             {this.showCards()}
           </div>
@@ -116,4 +94,4 @@ class Toner extends Component {
   }
 }
 
-export default Toner;
+export default Ink;

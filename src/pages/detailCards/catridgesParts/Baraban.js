@@ -1,57 +1,33 @@
 import React, {Component} from "react";
-import { NavLink } from 'react-router-dom';
 import $ from 'jquery';
-import jQueryBridget from 'jquery-bridget';
-import Isotope from 'isotope-layout';
-import '../../App.scss';
-import './DetailCards.scss';
+import { NavLink } from 'react-router-dom';
+import '../../../App.scss';
+import '../DetailCards.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTags } from '@fortawesome/free-solid-svg-icons';
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleUp, faTags, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 
-import Footer from '../../companents/footer/Footer';
-import Services from '../../companents/services/Services';
-import More from '../../companents/more/More';
-import Backdrop from '../../UI/Backdrop/Backdrop';
-import NavBar from '../../companents/navbar/Navbar';
-import Banner from '../../companents/banner/Banner';
+import Footer from '../../../companents/footer/Footer';
+import Services from '../../../companents/services/Services';
+import More from '../../../companents/more/More';
+import Backdrop from '../../../UI/Backdrop/Backdrop';
+import NavBar from '../../../companents/navbar/Navbar';
+import Banner from '../../../companents/banner/Banner';
 
-import ink1 from '../../img/ink/ink1.jpg';
-import ink2 from '../../img/ink/ink2.jpg';
-import ink3 from '../../img/ink/ink3.jpg';
+import {catridgePartsData} from '../../../main/catridgePartsData';
 
-jQueryBridget( 'isotope', Isotope, $ );
-class Ink extends Component {
+class Baraban extends Component {
   state = {
     showMore: false,
     img:0,
     price:0,
     title:0,
     brand:0,
-    card: [
-      {
-          img: ink1,
-          title:'Epson L800 Printeri Ucun 70 Ml Yellow',
-          brand:'Epson',
-          price:'30.00'
-      },
-      {
-          img: ink2,
-          title:'Epson Printeri Ucun 100 Ml Cyan',
-          brand:'Epson',
-          price:'2.50'
-      },
-      {
-          img: ink3,
-          title:'Epson Printeri Ucun 70 Ml Magenta',
-          brand:'Epson',
-          price:'16.00'
-      }
-    ]
+    model:0
   }
-
+  
   showCards(){
-    return this.state.card.map(item=>{
+    return catridgePartsData.map(item=>{
+      if(item.type == 'baraban'){
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
           <img
@@ -63,15 +39,16 @@ class Ink extends Component {
         </div>
         <div className="card-footer">
           <h4 className="card-title">{item.title}</h4>
-          {/* <div className='card-des'> */}
-            <p className="card-brand">{item.brand}</p>
-            <p className="card-price">{item.price} AZN
-            <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </p>    
-          {/* </div> */}
+          <p className="card-brand">{item.brand}</p>
+          <p className="card-model">{item.model}</p>
+          <p className="card-price">{item.price} AZN
+          <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
+          </p>    
         </div>
       </article>
-    });
+    }
+  }
+    );
   }
 
   changeImg = (event) => {
@@ -84,6 +61,7 @@ class Ink extends Component {
     this.setState({price: $(event.currentTarget).children('.card-footer').children('.card-price').text()});
     this.setState({title: $(event.currentTarget).children('.card-footer').children('.card-title').text()});
     this.setState({brand: $(event.currentTarget).children('.card-footer').children('.card-brand').text()});
+    this.setState({model: $(event.currentTarget).children('.card-footer').children('.card-model').text()});
   }
 
   hideMore=()=>{
@@ -102,8 +80,12 @@ class Ink extends Component {
           img={this.state.img}
           price={this.state.price}
           title={this.state.title} 
+          model={this.state.model} 
           brand={this.state.brand} /> : null}
-          <h2 className="subtitle">Mürəkkəblər (ink)</h2>
+          <NavLink to='/catridges-parts' className='back-detail'>
+            <FontAwesomeIcon className=".back-detail-icon" icon={faAngleDoubleLeft}/> geri
+          </NavLink>
+          <h2 className="subtitle">Baraban</h2>
           <div className="catridges-center">
             {this.showCards()}
           </div>
@@ -116,4 +98,4 @@ class Ink extends Component {
   }
 }
 
-export default Ink;
+export default Baraban;

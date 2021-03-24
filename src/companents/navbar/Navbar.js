@@ -5,7 +5,6 @@ import '../../App.scss';
 import $ from "jquery"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../img/agLogo.png';
@@ -43,7 +42,7 @@ class NavBar extends Component{
 
   render(){
     return (
-      <nav className="navbar">
+      <nav className="navbar" id='navbar'>
         <div className="nav-header">
         <NavLink to='/'><img src={logo} className="nav-logo" /></NavLink>
           <button className="nav-toggle"
@@ -54,11 +53,12 @@ class NavBar extends Component{
           </button> 
         </div>
         <div className="nav-links" >
+          <NavLink to='/' className='nav-link'>Ana səhifə</NavLink>
           <NavLink className="nav-link" to='/about'>Haqqımızda</NavLink>
           <div className="dropdown">
-            <button className="nav-link">Katriclər 
+            <NavLink className="nav-link" to='/catridges'>Katriclər 
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </button>
+            </NavLink>
             <div className="dropdown-content">
               <div className='dropdown-side'>
                 <NavLink to='/laser' className='dropdown-link'>Lazer</NavLink>
@@ -81,7 +81,6 @@ class NavBar extends Component{
                 <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
                 <div className='side-link'>
                   <NavLink to='/tuba' className='dropdown-link'>Orijinal</NavLink>
-                  <NavLink to='/tuba' className='dropdown-link'>Analoq</NavLink>
                 </div>
               </div>
             </div>
@@ -89,34 +88,34 @@ class NavBar extends Component{
           <NavLink to='/toner' className='nav-link'>Toner</NavLink>
           <NavLink to='/ink' className='nav-link'>Mürəkkəblər</NavLink>
           <div className="dropdown">
-            <button className="nav-link">Katric Hissələri
+            <NavLink className="nav-link" to='/catridges-parts'>Katric Hissələri
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </button>
+            </NavLink>
             <div className="dropdown-content">
-              <NavLink to='/tuba' className='dropdown-link'>Baraban</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Maqnit val</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Rakel (Blade)</NavLink>
+              <NavLink to='/baraban' className='dropdown-link'>Baraban</NavLink>
+              <NavLink to='/maqnitVal' className='dropdown-link'>Maqnit val</NavLink>
+              <NavLink to='/rakel' className='dropdown-link'>Rakel (Blade)</NavLink>
               <NavLink to='/tuba' className='dropdown-link'>Karatron (PCR)</NavLink>
               <NavLink to='/tuba' className='dropdown-link'>Çiplər</NavLink>
             </div>
           </div>
           <div className="dropdown">
-            <button className="nav-link">Printer Hissələri
+            <NavLink className="nav-link" to='/printer-parts'>Printer Hissələri
             <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </button>
+            </NavLink>
             <div className="dropdown-content">
-              <NavLink to='/tuba' className='dropdown-link'>Kağız götürən rolik</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Rezin val</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Businqlər</NavLink>
+              <NavLink to='/paper-taker' className='dropdown-link'>Kağız götürən rolik</NavLink>
+              <NavLink to='/rubber-val' className='dropdown-link'>Rezin val</NavLink>
+              <NavLink to='/businq' className='dropdown-link'>Businqlər</NavLink>
               <NavLink to='/tuba' className='dropdown-link'>Termoplyonka</NavLink>
               <NavLink to='/tuba' className='dropdown-link'>Termoelement</NavLink>
             </div>
           </div>
         </div>
-        <form className='find'>
+        {/* <form className='find'>
           <input type='text' placeholder="Axtar" className='search-input'></input>
           <FontAwesomeIcon icon={faSearch} className='search-icon' onClick={this.findProduct} />
-        </form>
+        </form> */}
       </nav>
     );
   } 

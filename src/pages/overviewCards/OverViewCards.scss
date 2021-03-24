@@ -1,0 +1,60 @@
+.drop-menu{
+  padding: var(--mainPadding);
+}
+.drop-menu-detail{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.drop-menu-subtitle{
+  letter-spacing: var(--mainSpacing);
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  color: var(--mainBlack);
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+.back-overview{
+  display: inline-block;
+  align-self: flex-end;
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+.drop-menu-center {
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--mainPadding);
+}
+.drop-menu-card{
+  margin-bottom: 2rem;
+  transition: var(--mainTransition);
+  width: 130px;
+  height: 90px;
+  margin-right:5px ;
+  position: relative;
+  border: 1px solid orange;
+  display: inline;
+}
+.drop-menu-card-button {
+  color: var(--mainBlack);
+  font-size: 12px;
+  border: 1px solid var(--primaryColor);
+  padding: 2px 6px;
+  background: var(--primaryColor);
+  transition: all 0.2s linear;
+}
+.drop-menu-card:hover {
+  .drop-menu-card-button{
+    border: 1px solid var(--mainBlack);
+    border-left: none;
+    color: white;
+    background-color: var(--mainBlack);
+    cursor: pointer;
+  }
+  cursor: pointer;
+  z-index: 1;
+}
+.drop-menu-card-img {
+  width: 100%;
+  height: 70%;
+}

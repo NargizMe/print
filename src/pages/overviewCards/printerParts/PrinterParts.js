@@ -12,16 +12,18 @@ import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
 import Banner from '../../../companents/banner/Banner';
 
-import {catridgeData} from '../../../main/catridgeData';
+import {printerPartsData} from '../../../main/printerPartsData';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleUp, faTags, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 
-import lazer from '../../../img/lazer.jpg';
-import tuba from '../../../img/tuba.jpg';
-import ink from '../../../img/inkCatridge.jpg';
+import businq from '../../../img/businq.jpg';
+import rolik from '../../../img/rolik.jpg';
+import rezinVal from '../../../img/rezinVal.jpg';
+import termoElement from '../../../img/termoelement.jpg';
+import termoPlyonka from '../../../img/termoplyonka.jpg';
 
-class Catridges extends Component{
+class PrinterParts extends Component{
 
   state = {
     showMore: false,
@@ -50,7 +52,7 @@ class Catridges extends Component{
   }
 
 showCards(){
-    return catridgeData.map(item=>{
+    return printerPartsData.map(item=>{
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
           <img
@@ -88,31 +90,47 @@ showCards(){
         title={this.state.title} 
         model={this.state.model} 
         brand={this.state.brand} /> : null}
-        <h2 className="drop-menu-subtitle">Katriclər</h2>
+        <h2 className="drop-menu-subtitle">Printer Hissələri</h2>
         <section className="drop-menu-center">
-          <NavLink className="drop-menu-card" to='/laser'>
+          <NavLink className="drop-menu-card" to='/businq'>
             <img
-            src={lazer}
+            src={businq}
             className="drop-menu-card-img"
             alt="məhsul"
             />
-            <button className="drop-menu-card-button" >Lazer</button>
+            <button className="drop-menu-card-button" >Businqlər</button>
+          </NavLink>
+          <NavLink className="drop-menu-card" to='/paper-taker'>
+            <img
+            src={rolik}
+            className="drop-menu-card-img"
+            alt="məhsul"
+            />
+            <button className="drop-menu-card-button" >Kağız götürən rolik</button>
+          </NavLink>
+          <NavLink className="drop-menu-card" to='/rubber-val'>
+            <img
+            src={rezinVal}
+            className="drop-menu-card-img"
+            alt="məhsul"
+            />
+            <button className="drop-menu-card-button" >Rezin val</button>
           </NavLink>
           <NavLink className="drop-menu-card" to='/tuba'>
             <img
-            src={tuba}
+            src={termoElement}
             className="drop-menu-card-img"
             alt="məhsul"
             />
-            <button className="drop-menu-card-button" >Tuba</button>
+            <button className="drop-menu-card-button" >Termoelement</button>
           </NavLink>
           <NavLink className="drop-menu-card" to='/tuba'>
             <img
-            src={ink}
+            src={termoPlyonka}
             className="drop-menu-card-img"
             alt="məhsul"
             />
-            <button className="drop-menu-card-button" >İNK</button>
+            <button className="drop-menu-card-button" >Termoplyonka</button>
           </NavLink>
           <NavLink to='/' className='back-overview'>
             <FontAwesomeIcon className=".back-overview-icon" icon={faAngleDoubleLeft}/> geri
@@ -130,4 +148,4 @@ showCards(){
   } 
 }
 
-export default Catridges;
+export default PrinterParts;
