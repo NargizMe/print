@@ -9,7 +9,7 @@ class Panel extends Component{
     
   render(){
     return (
-      <div className="hero" style={{ background: `url(${background})  no-repeat` }}>
+      <div className="hero" style={{ background: `url(${background}) no-repeat` }}>
         {/* style={{ background: `url(${background}) center no-repeat` }} */}
         {/* <div className='hero-img' >   */}
           {/* <img src={background}></img> */}

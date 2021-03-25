@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Route, Switch} from 'react-router-dom';
-import {  } from 'react-router-dom';
 import './App.scss';
 import $ from "jquery"; 
 
@@ -25,7 +24,6 @@ import About from './companents/about/About';
 import Main from './main/Main';
 
 class App extends Component {
-  
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll);
   };
