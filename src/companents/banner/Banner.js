@@ -1,19 +1,18 @@
 import React, {Component} from "react";
+import $ from "jquery"; 
 import './Banner.css';
 import '../../App.scss';
-import background from "../../img/banner4.jpg";
-
-import Services from '../services/Services';
-import $ from "jquery"; 
+import background from "../../img/banner1.png";
+import sideBanner from "../../img/sideBanner.jpg";
 
 class Panel extends Component{
     
   render(){
     return (
-      <div className="hero">
+      <div className="hero" style={{ background: `url(${background})  no-repeat` }}>
         {/* style={{ background: `url(${background}) center no-repeat` }} */}
-        <div className='hero-img' >  
-          <img src={background}></img>
+        {/* <div className='hero-img' >   */}
+          {/* <img src={background}></img> */}
         {/* <div className="hero-banner">
         <h1 className="hero-title">Premium Keyfiyyət</h1>
         <p className="hero-text">
@@ -23,6 +22,9 @@ class Panel extends Component{
         </p>
         <a href="#featured" className="btn-white scroll-link">Ətraflı</a>
         </div> */}
+        {/* </div> */}
+        <div className='side-banner'>
+          <a href='https://unisell.az/' target='_balnk'><img src={sideBanner}></img></a>
         </div>
       </div>
     //   <div className="hero" 

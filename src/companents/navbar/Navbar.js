@@ -26,19 +26,19 @@ class NavBar extends Component{
   //   }
   // };
 
-  findProduct=()=>{
-    let input = $('.search-input').val();
-    input=input.toLowerCase(); 
-    let x = $('.card-title').text().split(' '); 
-    for (let i = 0; i < x.length; i++) {  
-      if (!x[i].toLowerCase().includes(input)) { 
-        console.log('tapmadim');
-      } 
-      else { 
-        console.log('tapdim');              
-      } 
-    }
-  }
+  // findProduct=()=>{
+  //   let input = $('.search-input').val();
+  //   input=input.toLowerCase(); 
+  //   let x = $('.card-title').text().split(' '); 
+  //   for (let i = 0; i < x.length; i++) {  
+  //     if (!x[i].toLowerCase().includes(input)) { 
+  //       console.log('tapmadim');
+  //     } 
+  //     else { 
+  //       console.log('tapdim');              
+  //     } 
+  //   }
+  // }
 
   render(){
     return (

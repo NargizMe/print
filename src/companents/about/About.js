@@ -31,15 +31,7 @@ class About extends Component{
         <NavBar/>
       <section className="about" id="about">
         <h2 className="subtitle-about">Haqqımızda</h2>
-        {/* <div className="under-line"></div> */}
         <div className="about-center">
-          {/* <article className="about-img">
-          <img
-            src={aboutImg}
-            className="about-photo"
-            alt="about"
-          />
-          </article> */}
           <article className="about-info">
           <p>
           Kainat Print şirkəti ölkədə ən geniş şəbəkəsi olan şirkətlərindən 
@@ -52,7 +44,7 @@ class About extends Component{
           sahəsində innovativ yeniliklərə imza atır. Şirkətin texnoloji 
           bazası və personalı ən son standartlara uyğun formalaşmışdır.
           </p>
-          <a href="https://unisel.az/" target='_balnk' className="btn-primary">unisel.az</a>
+          <a href="https://unisell.az/" target='_balnk' className="btn-primary">unisell.az</a>
           </article>
           <div class="map">
           <iframe 
