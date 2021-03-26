@@ -5,7 +5,6 @@ import '../../App.scss';
 import Footer from '../footer/Footer';
 import Services from '../services/Services';
 import NavBar from '../navbar/Navbar';
-import aboutImg from "../../img/catriges/laser(original)14.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
