@@ -178,7 +178,7 @@ export const catridgeData = [
         img: laserOriginal1,
         title:'Drum Kartric HP 32A (CF232A)',
         brand:'HP',
-        price:'169.50',
+        //:'169.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -186,7 +186,7 @@ export const catridgeData = [
         img: laserOriginal2,
         title:'Drum Kartric HP 19A (CF219A)',
         brand:'HP',
-        price:'134.50',
+        //:'134.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -194,7 +194,7 @@ export const catridgeData = [
         img: laserOriginal3,
         title:'Drum Kartric HP CF34A (CF234A)',
         brand:'HP',
-        price:'119.50',
+        //:'119.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -202,7 +202,7 @@ export const catridgeData = [
         img: laserOriginal4,
         title:'Kartric Canon 045 BK',
         brand:'Canon',
-        price:'129.50',
+        //:'129.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -210,7 +210,7 @@ export const catridgeData = [
         img: laserOriginal5,
         title:'Kartric Canon 703',
         brand:'HP',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -218,7 +218,7 @@ export const catridgeData = [
         img: laserOriginal6,
         title:'Kartric Canon 712',
         brand:'Canon',
-        price:'85.50',
+        //:'85.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -226,7 +226,7 @@ export const catridgeData = [
         img: laserOriginal7,
         title:'Kartric Canon 718 (BK)',
         brand:'Canon',
-        price:'189.00',
+        //:'189.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -234,7 +234,7 @@ export const catridgeData = [
         img: laserOriginal8,
         title:'Kartric Canon 718 (CY)',
         brand:'Canon',
-        price:'198.20',
+        //:'198.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -242,7 +242,7 @@ export const catridgeData = [
         img: laserOriginal9,
         title:'Kartric Canon 718 (MG)',
         brand:'Canon',
-        price:'198.20',
+        //:'198.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -250,7 +250,7 @@ export const catridgeData = [
         img: laserOriginal10,
         title:'Kartric Canon 718 (YW)',
         brand:'Canon',
-        price:'198.20',
+        //:'198.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -258,7 +258,7 @@ export const catridgeData = [
         img: laserOriginal11,
         title:'Kartric Canon 719',
         brand:'Canon',
-        price:'125.40',
+        //:'125.40',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -266,7 +266,7 @@ export const catridgeData = [
         img: laserOriginal12,
         title:'Kartric Canon 725',
         brand:'Canon',
-        price:'105.50',
+        //:'105.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -274,7 +274,7 @@ export const catridgeData = [
         img: laserOriginal13,
         title:'Kartric Canon 728',
         brand:'Canon',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -282,7 +282,7 @@ export const catridgeData = [
         img: laserOriginal14,
         title:'Kartric Canon 731 (CY)',
         brand:'Canon',
-        price:'119.30',
+        //:'119.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -290,7 +290,7 @@ export const catridgeData = [
         img: laserOriginal15,
         title:'Kartric Canon 731 BK',
         brand:'Canon',
-        price:'112.40',
+        //:'112.40',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -298,7 +298,7 @@ export const catridgeData = [
         img: laserOriginal16,
         title:'Kartric Canon 731 MG',
         brand:'Canon',
-        price:'119.30',
+        //:'119.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -306,7 +306,7 @@ export const catridgeData = [
         img: laserOriginal17,
         title:'Kartric Canon 731 YL',
         brand:'Canon',
-        price:'119.30',
+        //:'119.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -314,7 +314,7 @@ export const catridgeData = [
         img: laserOriginal18,
         title:'Kartric Canon 737',
         brand:'Canon',
-        price:'115.50',
+        //:'115.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -322,7 +322,7 @@ export const catridgeData = [
         img: laserOriginal19,
         title:'Kartric Canon E16',
         brand:'Canon',
-        price:'125.50',
+        //:'125.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -330,7 +330,7 @@ export const catridgeData = [
         img: laserOriginal20,
         title:'Kartric Canon EP27',
         brand:'Canon',
-        price:'95.50',
+        //:'95.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -338,7 +338,7 @@ export const catridgeData = [
         img: laserOriginal21,
         title:'Kartric Canon FX10',
         brand:'Canon',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -346,7 +346,7 @@ export const catridgeData = [
         img: laserOriginal22,
         title:'Kartric HP 30A (CF230A)',
         brand:'HP',
-        price:'124.50',
+        //:'124.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -354,7 +354,7 @@ export const catridgeData = [
         img: laserOriginal23,
         title:'Kartric HP 05A (CE505A)',
         brand:'HP',
-        price:'158.00',
+        //:'158.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -362,7 +362,7 @@ export const catridgeData = [
         img: laserOriginal24,
         title:'Kartric HP 11A (Q6511A)',
         brand:'HP',
-        price:'195.40',
+        //:'195.40',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -370,7 +370,7 @@ export const catridgeData = [
         img: laserOriginal25,
         title:'Kartric HP 12A (Q2612A)',
         brand:'HP',
-        price:'115.50',
+        //:'115.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -378,7 +378,7 @@ export const catridgeData = [
         img: laserOriginal26,
         title:'Kartric HP 13A (Q2613A)',
         brand:'HP',
-        price:'95.40',
+        //:'95.40',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -386,7 +386,7 @@ export const catridgeData = [
         img: laserOriginal27,
         title:'Kartric HP 15A (C7115A)',
         brand:'HP',
-        price:'95.50',
+        //:'95.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -394,7 +394,7 @@ export const catridgeData = [
         img: laserOriginal28,
         title:'Kartric HP 16A (Q7516A)',
         brand:'HP',
-        price:'285.50',
+        //:'285.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -402,7 +402,7 @@ export const catridgeData = [
         img: laserOriginal29,
         title:'Kartric HP 17A (CF217A)',
         brand:'HP',
-        price:'119.50',
+        //:'119.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -410,7 +410,7 @@ export const catridgeData = [
         img: laserOriginal30,
         title:'Kartric HP 207A (W2210A)',
         brand:'HP',
-        price:'122.90',
+        //:'122.90',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -418,7 +418,7 @@ export const catridgeData = [
         img: laserOriginal31,
         title:'Kartric HP 216A (W2410A)',
         brand:'HP',
-        price:'94.90',
+        //:'94.90',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -426,7 +426,7 @@ export const catridgeData = [
         img: laserOriginal32,
         title:'Kartric HP 26A (CF226A)',
         brand:'HP',
-        price:'199.50',
+        //:'199.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -434,7 +434,7 @@ export const catridgeData = [
         img: laserOriginal33,
         title:'Kartric HP 26X (CF226X)',
         brand:'HP',
-        price:'429.50',
+        //:'429.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -442,7 +442,7 @@ export const catridgeData = [
         img: laserOriginal34,
         title:'Kartric HP 29X (C4129X)',
         brand:'HP',
-        price:'255.40 ',
+        //:'255.40 ',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -450,7 +450,7 @@ export const catridgeData = [
         img: laserOriginal35,
         title:'Kartric HP 33A (CF233A)',
         brand:'HP',
-        price:'39.00',
+        //:'39.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -458,7 +458,7 @@ export const catridgeData = [
         img: laserOriginal36,
         title:'KKartric HP 35A (CB435A)',
         brand:'HP',
-        price:'95.30',
+        //:'95.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -466,7 +466,7 @@ export const catridgeData = [
         img: laserOriginal37,
         title:'Kartric HP 36A (CB436A)',
         brand:'HP',
-        price:'105.30',
+        //:'105.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -474,7 +474,7 @@ export const catridgeData = [
         img: laserOriginal38,
         title:'Kartric HP 42A (Q5942A)',
         brand:'HP',
-        price:'295.60',
+        //:'295.60',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -482,7 +482,7 @@ export const catridgeData = [
         img: laserOriginal39,
         title:'Kartric HP 44A (CF244A)',
         brand:'HP',
-        price:'99.50',
+        //:'99.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -490,7 +490,7 @@ export const catridgeData = [
         img: laserOriginal40,
         title:'Kartric HP 49A (Q5949A)',
         brand:'HP',
-        price:'174.52',
+        //:'174.52',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -498,7 +498,7 @@ export const catridgeData = [
         img: laserOriginal41,
         title:'Kartric HP 51A (Q7551A)',
         brand:'HP',
-        price:'199.50',
+        //:'199.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -506,7 +506,7 @@ export const catridgeData = [
         img: laserOriginal42,
         title:'Kartric HP 53A (Q7553A)',
         brand:'HP',
-        price:'165.50',
+        //:'165.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -514,7 +514,7 @@ export const catridgeData = [
         img: laserOriginal43,
         title:'Kartric HP 540A (125A)',
         brand:'HP',
-        price:'110.00',
+        //:'110.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -522,7 +522,7 @@ export const catridgeData = [
         img: laserOriginal44,
         title:'Kartric HP 541A (125A)',
         brand:'HP',
-        price:'110.00',
+        //:'110.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -530,7 +530,7 @@ export const catridgeData = [
         img: laserOriginal45,
         title:'Kartric HP 542A (125A)',
         brand:'HP',
-        price:'110.00',
+        //:'110.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -538,7 +538,7 @@ export const catridgeData = [
         img: laserOriginal46,
         title:'Kartric HP 543A (125A)',
         brand:'HP',
-        price:'110.00',
+        //:'110.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -546,7 +546,7 @@ export const catridgeData = [
         img: laserOriginal47,
         title:'Kartric HP 55A (CE255A)',
         brand:'HP',
-        price:'272.00',
+        //:'272.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -554,7 +554,7 @@ export const catridgeData = [
         img: laserOriginal48,
         title:'Kartric HP 56A (CF256A)',
         brand:'HP',
-        price:'82.50',
+        //:'82.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -562,7 +562,7 @@ export const catridgeData = [
         img: laserOriginal49,
         title:'Kartric HP 64A (CC364A)',
         brand:'HP',
-        price:'245.50',
+        //:'245.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -570,7 +570,7 @@ export const catridgeData = [
         img: laserOriginal50,
         title:'Kartric HP 70A (Q7570A)',
         brand:'HP',
-        price:'410.26',
+        //:'410.26',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -578,7 +578,7 @@ export const catridgeData = [
         img: laserOriginal51,
         title:'Kartric HP 78A (CE278A)',
         brand:'HP',
-        price:'129.00',
+        //:'129.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -586,7 +586,7 @@ export const catridgeData = [
         img: laserOriginal52,
         title:'Kartric HP 80A (CF280A)',
         brand:'HP',
-        price:'184.50',
+        //:'184.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -594,7 +594,7 @@ export const catridgeData = [
         img: laserOriginal53,
         title:'Kartric HP 81 A (CF281 A)',
         brand:'HP',
-        price:'331.00',
+        //:'331.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -602,7 +602,7 @@ export const catridgeData = [
         img: laserOriginal54,
         title:'Kartric HP 83A (CE283A)',
         brand:'HP',
-        price:'110.33',
+        //:'110.33',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -610,7 +610,7 @@ export const catridgeData = [
         img: laserOriginal55,
         title:'Kartric HP 85A (CE285A)',
         brand:'HP',
-        price:'99.50',
+        //:'99.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -618,7 +618,7 @@ export const catridgeData = [
         img: laserOriginal56,
         title:'Kartric HP 87A (CF287A)',
         brand:'HP',
-        price:'391.00',
+        //:'391.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -626,7 +626,7 @@ export const catridgeData = [
         img: laserOriginal57,
         title:'Kartric HP 92A (C4092A)',
         brand:'HP',
-        price:'90.27',
+        //:'90.27',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -634,7 +634,7 @@ export const catridgeData = [
         img: laserOriginal58,
         title:'Kartric HP CE 310A (126A)',
         brand:'HP',
-        price:'96.00',
+        //:'96.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -642,7 +642,7 @@ export const catridgeData = [
         img: laserOriginal59,
         title:'Kartric HP CE 311A (126A)',
         brand:'HP',
-        price:'96.00',
+        //:'96.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -650,7 +650,7 @@ export const catridgeData = [
         img: laserOriginal60,
         title:'Kartric HP CE 312A (126A)',
         brand:'HP',
-        price:'96.00',
+        //:'96.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -658,7 +658,7 @@ export const catridgeData = [
         img: laserOriginal61,
         title:'Kartric HP CE 410A (305A)',
         brand:'HP',
-        price:'170.50',
+        //:'170.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -666,7 +666,7 @@ export const catridgeData = [
         img: laserOriginal62,
         title:'Kartric HP CE 411 (305A)',
         brand:'HP',
-        price:'210.50 ',
+        //:'210.50 ',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -674,7 +674,7 @@ export const catridgeData = [
         img: laserOriginal63,
         title:'Kartric HP CE270A (650A)',
         brand:'HP',
-        price:'451.35',
+        //:'451.35',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -682,7 +682,7 @@ export const catridgeData = [
         img: laserOriginal64,
         title:'Kartric HP CE271A (650A)',
         brand:'HP',
-        price:'541.68',
+        //:'541.68',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -690,7 +690,7 @@ export const catridgeData = [
         img: laserOriginal65,
         title:'Kartric HP CE272A (650A)',
         brand:'HP',
-        price:'541.68',
+        //:'541.68',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -698,7 +698,7 @@ export const catridgeData = [
         img: laserOriginal66,
         title:'Kartric HP CE273A (650A)',
         brand:'HP',
-        price:'541.68',
+        //:'541.68',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -706,7 +706,7 @@ export const catridgeData = [
         img: laserOriginal67,
         title:'Kartric HP CE313A (126A)',
         brand:'HP',
-        price:'96.00',
+        //:'96.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -714,7 +714,7 @@ export const catridgeData = [
         img: laserOriginal68,
         title:'Kartric HP CE314 (126)',
         brand:'HP',
-        price:'161.00',
+        //:'161.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -722,7 +722,7 @@ export const catridgeData = [
         img: laserOriginal69,
         title:'Kartric HP CE320A (128A)',
         brand:'HP',
-        price:'119.36 ',
+        //:'119.36 ',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -730,7 +730,7 @@ export const catridgeData = [
         img: laserOriginal70,
         title:'Kartric HP CE321A (128A)',
         brand:'HP',
-        price:'119.36',
+        //:'119.36',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -738,7 +738,7 @@ export const catridgeData = [
         img: laserOriginal71,
         title:'Kartric HP CE322A (128A)',
         brand:'HP',
-        price:'119.36',
+        //:'119.36',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -746,7 +746,7 @@ export const catridgeData = [
         img: laserOriginal72,
         title:'Kartric HP CE323A (128A)',
         brand:'HP',
-        price:'119.36',
+        //:'119.36',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -754,7 +754,7 @@ export const catridgeData = [
         img: laserOriginal73,
         title:'Kartric HP CE340 A (651A)',
         brand:'HP',
-        price:'330.00',
+        //:'330.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -762,7 +762,7 @@ export const catridgeData = [
         img: laserOriginal74,
         title:'Kartric HP CE341 A (651A)',
         brand:'HP',
-        price:'625.00',
+        //:'625.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -770,7 +770,7 @@ export const catridgeData = [
         img: laserOriginal75,
         title:'Kartric HP CE342 A (651A)',
         brand:'HP',
-        price:'625.00',
+        //:'625.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -778,7 +778,7 @@ export const catridgeData = [
         img: laserOriginal76,
         title:'Kartric HP CE343 A (651A)',
         brand:'HP',
-        price:'625.00',
+        //:'625.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -786,7 +786,7 @@ export const catridgeData = [
         img: laserOriginal77,
         title:'Kartric HP CE400 (507A)',
         brand:'HP',
-        price:'265.82',
+        //:'265.82',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -794,7 +794,7 @@ export const catridgeData = [
         img: laserOriginal78,
         title:'Kartric HP CE401 (507A)',
         brand:'HP',
-        price:'351.15',
+        //:'351.15',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -802,7 +802,7 @@ export const catridgeData = [
         img: laserOriginal79,
         title:'Kartric HP CE402 (507A)',
         brand:'HP',
-        price:'351.15',
+        //:'351.15',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -810,7 +810,7 @@ export const catridgeData = [
         img: laserOriginal80,
         title:'Kartric HP CE403 (507A)',
         brand:'HP',
-        price:'351.15',
+        //:'351.15',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -818,7 +818,7 @@ export const catridgeData = [
         img: laserOriginal81,
         title:'Kartric HP CE412 (305A)',
         brand:'HP',
-        price:'170.50',
+        //:'170.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -826,7 +826,7 @@ export const catridgeData = [
         img: laserOriginal82,
         title:'Kartric HP CE413 (305A)',
         brand:'HP',
-        price:'170.50',
+        //:'170.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -834,7 +834,7 @@ export const catridgeData = [
         img: laserOriginal83,
         title:'Kartric HP CE740A (307A)',
         brand:'HP',
-        price:'285.87',
+        //:'285.87',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -842,7 +842,7 @@ export const catridgeData = [
         img: laserOriginal84,
         title:'Kartric HP CE741A (307A)',
         brand:'HP',
-        price:'475.50',
+        //:'475.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -850,7 +850,7 @@ export const catridgeData = [
         img: laserOriginal85,
         title:'Kartric HP CE742A (307A)',
         brand:'HP',
-        price:'475.50',
+        //:'475.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -858,7 +858,7 @@ export const catridgeData = [
         img: laserOriginal86,
         title:'Kartric HP CE743A (307A)',
         brand:'HP',
-        price:'475.50',
+        //:'475.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -866,7 +866,7 @@ export const catridgeData = [
         img: laserOriginal87,
         title:'Kartric HP CE90A (CE390A)',
         brand:'HP',
-        price:'318.95',
+        //:'318.95',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -874,7 +874,7 @@ export const catridgeData = [
         img: laserOriginal88,
         title:'Kartric HP Cf210 A (131A)',
         brand:'HP',
-        price:'126.30',
+        //:'126.30',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -882,7 +882,7 @@ export const catridgeData = [
         img: laserOriginal89,
         title:'Kartric HP Cf211 A (131A)',
         brand:'HP',
-        price:'136.41',
+        //:'136.41',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -890,7 +890,7 @@ export const catridgeData = [
         img: laserOriginal90,
         title:'Kartric HP Cf212 A (131A)',
         brand:'HP',
-        price:'136.41',
+        //:'136.41',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -898,7 +898,7 @@ export const catridgeData = [
         img: laserOriginal91,
         title:'Kartric HP Cf213 A (131A)',
         brand:'HP',
-        price:'136.41',
+        //:'136.41',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -906,7 +906,7 @@ export const catridgeData = [
         img: laserOriginal92,
         title:'Kartric HP CF350A (CB435A)',
         brand:'HP',
-        price:'105.20',
+        //:'105.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -914,7 +914,7 @@ export const catridgeData = [
         img: laserOriginal93,
         title:'Kartric HP CF351A (CB435A)',
         brand:'HP',
-        price:'105.20',
+        //:'105.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -922,7 +922,7 @@ export const catridgeData = [
         img: laserOriginal94,
         title:'Kartric HP CF351A (CB435A)',
         brand:'HP',
-        price:'105.20 ',
+        //:'105.20 ',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -930,7 +930,7 @@ export const catridgeData = [
         img: laserOriginal95,
         title:'Kartric HP CF353A (CB435A)',
         brand:'HP',
-        price:'105.20',
+        //:'105.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -938,7 +938,7 @@ export const catridgeData = [
         img: laserOriginal96,
         title:'Kartric HP CF380 (312A)',
         brand:'HP',
-        price:'174.50',
+        //:'174.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -946,7 +946,7 @@ export const catridgeData = [
         img: laserOriginal97,
         title:'Kartric HP CF381 (312A)',
         brand:'HP',
-        price:'240.50',
+        //:'240.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -954,7 +954,7 @@ export const catridgeData = [
         img: laserOriginal98,
         title:'Kartric HP CF382 (312A)',
         brand:'HP',
-        price:'240.50',
+        //:'240.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -962,7 +962,7 @@ export const catridgeData = [
         img: laserOriginal99,
         title:'Kartric HP CF383 (312A)',
         brand:'HP',
-        price:'240.50',
+        //:'240.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -970,7 +970,7 @@ export const catridgeData = [
         img: laserOriginal100,
         title:'Kartric HP CF400 A (201A)',
         brand:'HP',
-        price:'110.20',
+        //:'110.20',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -978,7 +978,7 @@ export const catridgeData = [
         img: laserOriginal101,
         title:'Kartric HP CF401 A (201A)',
         brand:'HP',
-        price:'120.00',
+        //:'120.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -986,7 +986,7 @@ export const catridgeData = [
         img: laserOriginal102,
         title:'Kartric HP CF402 A (201A)',
         brand:'HP',
-        price:'120.00',
+        //:'120.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -994,7 +994,7 @@ export const catridgeData = [
         img: laserOriginal103,
         title:'Kartric HP CF403 A (201A)',
         brand:'HP',
-        price:'120.00',
+        //:'120.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1002,7 +1002,7 @@ export const catridgeData = [
         img: laserOriginal104,
         title:'Kartric HP CF410 A (410A)',
         brand:'HP',
-        price:'170.00',
+        //:'170.00',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1010,7 +1010,7 @@ export const catridgeData = [
         img: laserOriginal105,
         title:'Kartric HP CF411 A (410A)',
         brand:'HP',
-        price:'210.50',
+        //:'210.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1018,7 +1018,7 @@ export const catridgeData = [
         img: laserOriginal106,
         title:'Kartric HP CF412A (410A)',
         brand:'HP',
-        price:'210.50',
+        //:'210.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1026,7 +1026,7 @@ export const catridgeData = [
         img: laserOriginal107,
         title:'Kartric HP CF413 A (410A)',
         brand:'HP',
-        price:'210.50',
+        //:'210.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1034,7 +1034,7 @@ export const catridgeData = [
         img: laserOriginal108,
         title:'Kartric HP CF530A (205A)',
         brand:'HP',
-        price:'105.50',
+        //:'105.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1042,7 +1042,7 @@ export const catridgeData = [
         img: laserOriginal109,
         title:'Kartric HP CF531A (205A)',
         brand:'HP',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1050,7 +1050,7 @@ export const catridgeData = [
         img: laserOriginal110,
         title:'Kartric HP CF532A (205A)',
         brand:'HP',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1058,7 +1058,7 @@ export const catridgeData = [
         img: laserOriginal111,
         title:'Kartric HP CF533A (205A)',
         brand:'HP',
-        price:'110.50',
+        //:'110.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1066,7 +1066,7 @@ export const catridgeData = [
         img: laserOriginal112,
         title:'Kartric HP CF540A (203A)',
         brand:'HP',
-        price:'124.50',
+        //:'124.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1074,7 +1074,7 @@ export const catridgeData = [
         img: laserOriginal113,
         title:'Kartric HP CF541A (203A)',
         brand:'HP',
-        price:'141.50',
+        //:'141.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1082,7 +1082,7 @@ export const catridgeData = [
         img: laserOriginal114,
         title:'Kartric HP CF542A (203A)',
         brand:'HP',
-        price:'141.50',
+        //:'141.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1090,7 +1090,7 @@ export const catridgeData = [
         img: laserOriginal115,
         title:'Kartric HP CF543A (203A)',
         brand:'HP',
-        price:'141.50 ',
+        //:'141.50 ',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1098,7 +1098,7 @@ export const catridgeData = [
         img: laserOriginal116,
         title:'Katric 117A (W2070A)',
         brand:'HP',
-        price:'92.28',
+        //:'92.28',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1106,7 +1106,7 @@ export const catridgeData = [
         img: laserOriginal117,
         title:'Katric 117A (W2072A)',
         brand:'HP',
-        price:'95.29',
+        //:'95.29',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1114,7 +1114,7 @@ export const catridgeData = [
         img: laserOriginal118,
         title:'Katric 117A (W2073A)',
         brand:'HP',
-        price:'95.29',
+        //:'95.29',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1122,7 +1122,7 @@ export const catridgeData = [
         img: laserOriginal119,
         title:'Katric 415A (W2030A)',
         brand:'HP',
-        price:'176.50',
+        //:'176.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1130,7 +1130,7 @@ export const catridgeData = [
         img: laserOriginal120,
         title:'Katric 415A (W2031A)',
         brand:'HP',
-        price:'224.50',
+        //:'224.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1138,7 +1138,7 @@ export const catridgeData = [
         img: laserOriginal121,
         title:'Katric 415A (W2032A)',
         brand:'HP',
-        price:'224.50',
+        //:'224.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1146,7 +1146,7 @@ export const catridgeData = [
         img: laserOriginal122,
         title:'Katric 415A (W2033A)',
         brand:'HP',
-        price:'224.50',
+        //:'224.50',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1154,7 +1154,7 @@ export const catridgeData = [
         img: laserOriginal123,
         title:'Katric HP 117A (W2071A)',
         brand:'HP',
-        price:'95.29',
+        //:'95.29',
         type: 'laser',
         originality: 'orijinal'
     },
@@ -1162,7 +1162,7 @@ export const catridgeData = [
         img: laserAnaloq1,
         title:'Kartric Canon 052A',
         brand:'Canon',
-        price:'25.00',
+        //:'25.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1170,7 +1170,7 @@ export const catridgeData = [
         img: laserAnaloq2,
         title:'Kartric Canon 052H',
         brand:'Canon',
-        price:'35.00',
+        //:'35.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1178,7 +1178,7 @@ export const catridgeData = [
         img: laserAnaloq3,
         title:'Kartric CF 540X (203X)',
         brand:'Static Control',
-        price:'85.50',
+        //:'85.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1186,7 +1186,7 @@ export const catridgeData = [
         img: laserAnaloq4,
         title:'Kartric CF 541X (203X)',
         brand:'Static Control',
-        price:'85.50',
+        //:'85.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1194,7 +1194,7 @@ export const catridgeData = [
         img: laserAnaloq5,
         title:'Kartric CF 542X (203X)',
         brand:'Static Control',
-        price:'85.50',
+        //:'85.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1202,7 +1202,7 @@ export const catridgeData = [
         img: laserAnaloq6,
         title:'Kartric CF 543X (203X)',
         brand:'Static Control',
-        price:'85.50',
+        //:'85.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1210,7 +1210,7 @@ export const catridgeData = [
         img: laserAnaloq7,
         title:'Kartric CF400X (201X)',
         brand:'Static Control',
-        price:'82.50',
+        //:'82.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1218,7 +1218,7 @@ export const catridgeData = [
         img: laserAnaloq8,
         title:'Kartric CF401X (201X)',
         brand:'Static Control',
-        price:'82.50',
+        //:'82.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1226,7 +1226,7 @@ export const catridgeData = [
         img: laserAnaloq9,
         title:'Kartric CF402X (201X)',
         brand:'Static Control',
-        price:'82.50',
+        //:'82.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1234,7 +1234,7 @@ export const catridgeData = [
         img: laserAnaloq10,
         title:'Kartric CF403X (201X)',
         brand:'Static Control',
-        price:'82.50',
+        //:'82.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1242,7 +1242,7 @@ export const catridgeData = [
         img: laserAnaloq11,
         title:'Kartric CF410X (410X)',
         brand:'Static Control',
-        price:'89.50',
+        //:'89.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1250,7 +1250,7 @@ export const catridgeData = [
         img: laserAnaloq12,
         title:'Kartric CF411X (410X)',
         brand:'Static Control',
-        price:'89.50',
+        //:'89.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1258,7 +1258,7 @@ export const catridgeData = [
         img: laserAnaloq13,
         title:'Kartric CF412X (410X)',
         brand:'Static Control',
-        price:'89.50',
+        //:'89.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1266,7 +1266,7 @@ export const catridgeData = [
         img: laserAnaloq14,
         title:'Kartric CF413X (410X)',
         brand:'Static Control',
-        price:'89.50',
+        //:'89.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1274,7 +1274,7 @@ export const catridgeData = [
         img: laserAnaloq15,
         title:'Drum Kartric HP 32A (CF232A)',
         brand:'HP',
-        price:'39.50',
+        //:'39.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1282,7 +1282,7 @@ export const catridgeData = [
         img: laserAnaloq16,
         title:'Drum Kartric HP 19A (CF219A)',
         brand:'HP',
-        price:'39.50',
+        //:'39.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1290,7 +1290,7 @@ export const catridgeData = [
         img: laserAnaloq17,
         title:'Drum Kartric HP CF34A (CF234A)',
         brand:'HP',
-        price:'45.50',
+        //:'45.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1298,7 +1298,7 @@ export const catridgeData = [
         img: laserAnaloq18,
         title:'Kartric 35A (CB435A)',
         brand:'HP',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1306,7 +1306,7 @@ export const catridgeData = [
         img: laserAnaloq19,
         title:'Kartric Canon 045',
         brand:'Canon',
-        price:'35.00',
+        //:'35.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1314,7 +1314,7 @@ export const catridgeData = [
         img: laserAnaloq20,
         title:'Kartric Canon 703',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1322,7 +1322,7 @@ export const catridgeData = [
         img: laserAnaloq21,
         title:'Kartric Canon 712',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1330,7 +1330,7 @@ export const catridgeData = [
         img: laserAnaloq22,
         title:'Kartric Canon 719',
         brand:'Canon',
-        price:'22.00',
+        //:'22.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1338,7 +1338,7 @@ export const catridgeData = [
         img: laserAnaloq23,
         title:'Kartric Canon 725',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1346,7 +1346,7 @@ export const catridgeData = [
         img: laserAnaloq24,
         title:'Kartric Canon 728',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1354,7 +1354,7 @@ export const catridgeData = [
         img: laserAnaloq25,
         title:'Kartric Canon 737',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1362,7 +1362,7 @@ export const catridgeData = [
         img: laserAnaloq26,
         title:'Kartric Canon E16',
         brand:'Canon',
-        price:'69.50',
+        //:'69.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1370,7 +1370,7 @@ export const catridgeData = [
         img: laserAnaloq27,
         title:'Kartric Canon EP27',
         brand:'Canon',
-        price:'22.00',
+        //:'22.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1378,7 +1378,7 @@ export const catridgeData = [
         img: laserAnaloq28,
         title:'Kartric Canon FX10',
         brand:'Canon',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1386,7 +1386,7 @@ export const catridgeData = [
         img: laserAnaloq29,
         title:'Kartric HP 30A (CF230A)',
         brand:'HP',
-        price:'25.50',
+        //:'25.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1394,7 +1394,7 @@ export const catridgeData = [
         img: laserAnaloq30,
         title:'Kartric HP 30X (CF230X)',
         brand:'HP',
-        price:'29.50',
+        //:'29.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1402,7 +1402,7 @@ export const catridgeData = [
         img: laserAnaloq31,
         title:'Kartric HP CF543A (203A)',
         brand:'HP',
-        price:'36.50',
+        //:'36.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1410,7 +1410,7 @@ export const catridgeData = [
         img: laserAnaloq32,
         title:'Kartric HP 05A (CE505A)',
         brand:'HP',
-        price:'21.00',
+        //:'21.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1418,7 +1418,7 @@ export const catridgeData = [
         img: laserAnaloq33,
         title:'Kartric HP 11A (Q6511A)',
         brand:'HP',
-        price:'55.00',
+        //:'55.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1426,7 +1426,7 @@ export const catridgeData = [
         img: laserAnaloq34,
         title:'Kartric HP 12A (Q2612A)',
         brand:'HP',
-        price:'18.50',
+        //:'18.50',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1434,7 +1434,7 @@ export const catridgeData = [
         img: laserAnaloq35,
         title:'Kartric HP 13A (Q2613A)',
         brand:'HP',
-        price:'22.00',
+        //:'22.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1442,7 +1442,7 @@ export const catridgeData = [
         img: laserAnaloq36,
         title:'Kartric HP 15A (C7115A)',
         brand:'HP',
-        price:'21.00',
+        //:'21.00',
         type: 'laser',
         originality: 'analoq'
     },
@@ -1450,7 +1450,7 @@ export const catridgeData = [
         img: tubaAnaloq1,
         title:'HYB Toner-Kartric EXV-42',
         brand:'HYB',
-        price:'28.00',
+        //:'28.00',
         type: 'tuba',
         originality: 'analoq'
     },
@@ -1458,7 +1458,7 @@ export const catridgeData = [
         img: tubaAnaloq2,
         title:'Toner Canon C-EXV14',
         brand:'Canon',
-        price:'19.00',
+        //:'19.00',
         type: 'tuba',
         originality: 'analoq'
     },
@@ -1466,7 +1466,7 @@ export const catridgeData = [
         img: tubaAnaloq3,
         title:'Toner Canon C-EXV33',
         brand:'Canon',
-        price:'90.50',
+        //:'90.50',
         type: 'tuba',
         originality: 'analoq'
     },
@@ -1474,7 +1474,7 @@ export const catridgeData = [
         img: tubaOrijinal1,
         title:'Canon Toner-Kartric EXV-42',
         brand:'Canon',
-        price:'66.50',
+        //:'66.50',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1482,7 +1482,7 @@ export const catridgeData = [
         img: tubaOrijinal2,
         title:'Toner Canon C-EXV 14',
         brand:'Canon',
-        price:'70.21 ',
+        //:'70.21 ',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1490,7 +1490,7 @@ export const catridgeData = [
         img: tubaOrijinal3,
         title:'Toner Canon C-EXV 34 BK',
         brand:'Canon',
-        price:'78.28',
+        //:'78.28',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1498,7 +1498,7 @@ export const catridgeData = [
         img: tubaOrijinal4,
         title:'Toner Canon C-EXV 34 CY',
         brand:'Canon',
-        price:'165.30',
+        //:'165.30',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1506,7 +1506,7 @@ export const catridgeData = [
         img: tubaOrijinal5,
         title:'Toner Canon C-EXV 34 MG',
         brand:'Canon',
-        price:'165.30',
+        //:'165.30',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1514,7 +1514,7 @@ export const catridgeData = [
         img: tubaOrijinal6,
         title:'Toner Canon C-EXV 34 YW',
         brand:'Canon',
-        price:'165.30',
+        //:'165.30',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1522,7 +1522,7 @@ export const catridgeData = [
         img: tubaOrijinal7,
         title:'Toner Canon C-EXV 54',
         brand:'HP',
-        price:'136.50',
+        //:'136.50',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1530,7 +1530,7 @@ export const catridgeData = [
         img: tubaOrijinal8,
         title:'Toner Canon C-EXV 54 CY',
         brand:'Canon',
-        price:'175.00',
+        //:'175.00',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1538,7 +1538,7 @@ export const catridgeData = [
         img: tubaOrijinal9,
         title:'Toner Canon C-EXV 54 MG',
         brand:'Canon',
-        price:'175.00',
+        //:'175.00',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1546,7 +1546,7 @@ export const catridgeData = [
         img: tubaOrijinal9,
         title:'Toner Canon C-EXV 54 MG',
         brand:'Canon',
-        price:'175.00',
+        //:'175.00',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1554,7 +1554,7 @@ export const catridgeData = [
         img: tubaOrijinal10,
         title:'Toner Canon C-EXV 54 YW',
         brand:'Canon',
-        price:'175.00',
+        //:'175.00',
         type: 'tuba',
         originality: 'orijinal'
     },
@@ -1562,7 +1562,7 @@ export const catridgeData = [
         img: tubaOrijinal11,
         title:'Toner Canon C-EXV33',
         brand:'Canon',
-        price:'24.00',
+        //:'24.00',
         type: 'tuba',
         originality: 'orijinal'
     }

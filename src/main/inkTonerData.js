@@ -13,7 +13,7 @@ export const inkTonerData = [
       title:'Epson L800 Printeri Ucun 70 Ml Yellow',
       brand:'Epson',
       model: 'L800',
-      price:'30.00',
+      //:'30.00',
       type: 'nonToner'
     },
     {
@@ -21,7 +21,7 @@ export const inkTonerData = [
         title:'Epson Printeri Ucun 100 Ml Cyan',
         brand:'Epson',
         model: 'Epson ink-100ml',
-        price:'2.50',
+        //:'2.50',
         type: 'nonToner'
     },
     {
@@ -29,7 +29,7 @@ export const inkTonerData = [
         title:'Epson Printeri Ucun 70 Ml Magenta',
         brand:'Epson',
         model: 'L100/L200',
-        price:'16.00',
+        //:'16.00',
         type: 'nonToner'
     },
     {
@@ -37,7 +37,7 @@ export const inkTonerData = [
         title:'Brother Universal Toner - (1000gr)',
         brand:'İTDL',
         model: 'İTDL-brother -1000',
-        price:'32.00',
+        //:'32.00',
         type: 'toner'
     },
     {
@@ -45,7 +45,7 @@ export const inkTonerData = [
         title:'Brother Universal Toner - (100gr)',
         brand:'İTDL',
         model: 'İTDL-brother -100',
-        price:'4.50',
+        //:'4.50',
         type: 'toner'
     },
     {
@@ -53,7 +53,7 @@ export const inkTonerData = [
         title:'Canon Copier Toner FC/PC-150gr',
         brand:'İTDL',
         model: 'İTDL-FC/PC',
-        price:'4.00',
+        //:'4.00',
         type: 'toner'
     },
     {
@@ -61,7 +61,7 @@ export const inkTonerData = [
         title:'Canon Toner EXV-42-1000 Gr',
         brand:'HYB',
         model: 'HYB-EXV-42(1000GR)',
-        price:'22.00',
+        //:'22.00',
         type: 'toner'
     },
 ]

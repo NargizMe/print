@@ -23,7 +23,8 @@ class Lazer extends Component {
     img:0,
     price:0,
     title:0,
-    brand:0
+    brand:0,
+    model:0
   }
   
   showCards(){
@@ -40,10 +41,11 @@ class Lazer extends Component {
         </div>
         <div className="card-footer">
           <h4 className="card-title">{item.title}</h4>
-            <p className="card-brand">{item.brand} ({item.originality})</p>
-            <p className="card-price">{item.price} AZN
-            <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </p>    
+          <p className="card-brand">{item.brand} ({item.originality})</p>
+          <p className="card-model">{item.model}</p>
+          {/* <p className="card-price">{item.price} AZN
+          <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
+          </p>     */}
         </div>
       </article>
     }
@@ -69,6 +71,7 @@ class Lazer extends Component {
     this.setState({price: $(event.currentTarget).children('.card-footer').children('.card-price').text()});
     this.setState({title: $(event.currentTarget).children('.card-footer').children('.card-title').text()});
     this.setState({brand: $(event.currentTarget).children('.card-footer').children('.card-brand').text()});
+    this.setState({model: $(event.currentTarget).children('.card-footer').children('.card-model').text()});
   }
 
   hideMore=()=>{
@@ -87,6 +90,7 @@ class Lazer extends Component {
           img={this.state.img}
           price={this.state.price}
           title={this.state.title} 
+          model={this.state.model} 
           brand={this.state.brand} /> : null}
           <NavLink to='/catridges' className='back-detail'>
             <FontAwesomeIcon className=".back-detail-icon" icon={faAngleDoubleLeft}/> geri

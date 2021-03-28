@@ -18,7 +18,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon 1018/1022',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'12.00',
+    //:'12.00',
     type: 'baraban'
 },
 {
@@ -26,7 +26,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon 1215',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'16.00',
+    //:'16.00',
     type: 'baraban'
 },
 {
@@ -34,7 +34,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon 2200',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'11.00',
+    //:'11.00',
     type: 'baraban'
 },
 {
@@ -42,7 +42,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon 7161',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'11.00',
+    //:'11.00',
     type: 'baraban'
 },
 {
@@ -50,7 +50,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon Fc/Pc/E16',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'9.00',
+    //:'9.00',
     type: 'baraban'
 },
 {
@@ -58,7 +58,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon Ir 1600',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'11.00',
+    //:'11.00',
     type: 'baraban'
 },
 {
@@ -66,7 +66,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon Ir 2016/2420',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'9.00',
+    //:'9.00',
     type: 'baraban'
 },
 {
@@ -74,7 +74,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon NPG 22/3200/4580',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'15.00',
+    //:'15.00',
     type: 'baraban'
 },
 {
@@ -82,7 +82,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon NPG51/2520',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'9.00',
+    //:'9.00',
     type: 'baraban'
 },
 {
@@ -90,7 +90,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Canon NPG25/2270',
     brand:'Goldengreen',
     model:'Canon series',
-    price:'14.00',
+    //:'14.00',
     type: 'baraban'
 },
 {
@@ -98,7 +98,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 1005/285',
     brand:'Goldengreen',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'baraban'
 },
 {
@@ -106,7 +106,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 1005/285',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'maqnitVal'
 },
 {
@@ -114,7 +114,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 1010/2612a',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'maqnitVal'
 },
 {
@@ -122,7 +122,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 1018/1020',
     brand:'VPATech',
     model:'Canon series',
-    price:'38.00',
+    //:'38.00',
     type: 'maqnitVal'
 },
 {
@@ -130,7 +130,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 105/205',
     brand:'VPATech',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'maqnitVal'
 },
 {
@@ -138,7 +138,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 1200/7115',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'maqnitVal'
 },
 {
@@ -146,7 +146,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 2016/2420',
     brand:'VPATech',
     model:'Canon series',
-    price:'38.00',
+    //:'38.00',
     type: 'maqnitVal'
 },
 {
@@ -154,7 +154,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 2018',
     brand:'VPATech',
     model:'Canon series',
-    price:'38.00',
+    //:'38.00',
     type: 'maqnitVal'
 },
 {
@@ -162,7 +162,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 201a/Cf 410',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'maqnitVal'
 },
 {
@@ -170,7 +170,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 217/233a',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'maqnitVal'
 },
 {
@@ -178,7 +178,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 2200',
     brand:'VPATech',
     model:'Canon series',
-    price:'38.00',
+    //:'38.00',
     type: 'maqnitVal'
 },
 {
@@ -186,7 +186,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 250/507',
     brand:'VPATech',
     model:'HP series',
-    price:'8.00',
+    //:'8.00',
     type: 'maqnitVal'
 },
 {
@@ -194,7 +194,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 2520',
     brand:'VPATech',
     model:'Canon series',
-    price:'38.00',
+    //:'38.00',
     type: 'maqnitVal'
 },
 {
@@ -202,7 +202,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 1005/285/436',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -210,7 +210,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 1010/2612',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -218,7 +218,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 1215/540',
     brand:'VPATech',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'rakel'
 },
 {
@@ -226,7 +226,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 1320/5949',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -234,7 +234,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 201a/Cf410a',
     brand:'VPATech',
     model:'HP series',
-    price:'3.00',
+    //:'3.00',
     type: 'rakel'
 },
 {
@@ -242,7 +242,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 226/052a',
     brand:'VPATech',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'rakel'
 },
 {
@@ -250,7 +250,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 5225/740a',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -258,7 +258,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp 7551/255',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -266,7 +266,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Hp Ce390/281a',
     brand:'VPATech',
     model:'HP series',
-    price:'5.00',
+    //:'5.00',
     type: 'rakel'
 },
 {
@@ -274,7 +274,7 @@ export const catridgePartsData = [
     title:'Alt Rakel Samsung 105/205',
     brand:'VPATech',
     model:'Samsung series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -282,7 +282,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 1010',
     brand:'Goldengreen',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'baraban'
 },
 {
@@ -290,7 +290,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 1100/92a',
     brand:'Goldengreen',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'baraban'
 },
 {
@@ -298,7 +298,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 1320/7553',
     brand:'Goldengreen',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'baraban'
 },
 {
@@ -306,7 +306,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 1600/2600',
     brand:'Goldengreen',
     model:'HP series',
-    price:'6.00',
+    //:'6.00',
     type: 'baraban'
 },
 {
@@ -314,7 +314,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 201a/Cf410a',
     brand:'Goldengreen',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'baraban'
 },
 {
@@ -322,7 +322,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 201a/Cf410a',
     brand:'Static Control',
     model:'Hp 201a/Cf410a',
-    price:'8.85',
+    //:'8.85',
     type: 'baraban'
 },
 {
@@ -330,7 +330,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 219(Drum Unit)',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -338,7 +338,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 226a/052a',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'3.00',
+    //:'3.00',
     type: 'baraban'
 },
 {
@@ -346,7 +346,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 3015/255/7751',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -354,7 +354,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 314/1025',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -362,7 +362,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 3225/Ce400/250',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'7.00',
+    //:'7.00',
     type: 'baraban'
 },
 {
@@ -370,7 +370,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 364/Ce 390',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'6.00',
+    //:'6.00',
     type: 'baraban'
 },
 {
@@ -378,7 +378,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 4129x',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'6.00',
+    //:'6.00',
     type: 'baraban'
 },
 {
@@ -386,7 +386,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 4182x',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'15.00',
+    //:'15.00',
     type: 'baraban'
 },
 {
@@ -394,7 +394,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 505/280a/2035',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'2.50',
+    //:'2.50',
     type: 'baraban'
 },
 {
@@ -402,7 +402,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 5225/740a',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'7.50',
+    //:'7.50',
     type: 'baraban'
 },
 {
@@ -410,7 +410,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 540/1215',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'3.00',
+    //:'3.00',
     type: 'baraban'
 },
 {
@@ -418,7 +418,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 5550/9730',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'9.00',
+    //:'9.00',
     type: 'baraban'
 },
 {
@@ -426,7 +426,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 5942',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'7.00',
+    //:'7.00',
     type: 'baraban'
 },
 {
@@ -434,7 +434,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 6030/6040',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'13.00',
+    //:'13.00',
     type: 'baraban'
 },
 {
@@ -442,7 +442,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp 7516',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'7.00',
+    //:'7.00',
     type: 'baraban'
 },
 {
@@ -450,7 +450,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Hp Q5950-3',
     brand:'Goldengreen',
     model:'Hp series',
-    price:'12.00',
+    //:'12.00',
     type: 'baraban'
 },
 {
@@ -458,7 +458,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung 101',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -466,7 +466,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung 103',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -474,7 +474,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung 1210',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -482,7 +482,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung 1710',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -490,7 +490,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung D 104',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -498,7 +498,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung D 105',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -506,7 +506,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung D 205',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -514,7 +514,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Samsung 1610/2010',
     brand:'Goldengreen',
     model:'Samsung series',
-    price:'5.00',
+    //:'5.00',
     type: 'baraban'
 },
 {
@@ -522,7 +522,7 @@ export const catridgePartsData = [
     title:'Baraban (Opc) Xerox 3100',
     brand:'Goldengreen',
     model:'Xerox series',
-    price:'8.00',
+    //:'8.00',
     type: 'baraban'
 },
 {
@@ -530,7 +530,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 255a/7551',
     brand:'VPATech',
     model:'HP series',
-    price:'3.50',
+    //:'3.50',
     type: 'maqnitVal'
 },
 {
@@ -538,7 +538,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 364/Ce 390',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'maqnitVal'
 },
 {
@@ -546,7 +546,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 505a/7553',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'maqnitVal'
 },
 {
@@ -554,7 +554,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 5100/4129x',
     brand:'VPATech',
     model:'HP series',
-    price:'8.00',
+    //:'8.00',
     type: 'maqnitVal'
 },
 {
@@ -562,7 +562,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 5200/7516',
     brand:'VPATech',
     model:'HP series',
-    price:'8.00',
+    //:'8.00',
     type: 'maqnitVal'
 },
 {
@@ -570,7 +570,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) 540/320/410',
     brand:'VPATech',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'maqnitVal'
 },
 {
@@ -578,7 +578,7 @@ export const catridgePartsData = [
     title:'Maqnit Val (MAG Roller) E16/E30',
     brand:'VPATech',
     model:'Canon series',
-    price:'5.00',
+    //:'5.00',
     type: 'maqnitVal'
 },
 {
@@ -586,7 +586,7 @@ export const catridgePartsData = [
     title:'Maqnit Val 226',
     brand:'VPATech',
     model:'HP series',
-    price:'3.00',
+    //:'3.00',
     type: 'maqnitVal'
 },
 {
@@ -594,7 +594,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 1018/1028',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -602,7 +602,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 1600',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -610,7 +610,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 2018',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -618,7 +618,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 2202',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -626,7 +626,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 2270/2200',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -634,7 +634,7 @@ export const catridgePartsData = [
     title:'Rakel Canon 7161',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -642,7 +642,7 @@ export const catridgePartsData = [
     title:'Rakel Canon Ir 2016/2420',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -650,7 +650,7 @@ export const catridgePartsData = [
     title:'Rakel Canon Ir 2520',
     brand:'VPATech',
     model:'Canon series',
-    price:'7.50',
+    //:'7.50',
     type: 'rakel'
 },
 {
@@ -658,7 +658,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 1005/285/436',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -666,7 +666,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 1010/2612',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -674,7 +674,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 1200/7115',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -682,7 +682,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 1215/540',
     brand:'VPATech',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'rakel'
 },
 {
@@ -690,7 +690,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 1320/5949',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -698,7 +698,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 201a/Cf410a',
     brand:'VPATech',
     model:'HP series',
-    price:'3.00',
+    //:'3.00',
     type: 'rakel'
 },
 {
@@ -706,7 +706,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 217a/M102',
     brand:'VPATech',
     model:'HP series',
-    price:'3.00',
+    //:'3.00',
     type: 'rakel'
 },
 {
@@ -714,7 +714,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 226/052a',
     brand:'VPATech',
     model:'HP series',
-    price:'2.50',
+    //:'2.50',
     type: 'rakel'
 },
 {
@@ -722,7 +722,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 314(Drum Unit)',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -730,7 +730,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 3906a',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'rakel'
 },
 {
@@ -738,7 +738,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 5225/740a',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -746,7 +746,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 7516/9730',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -754,7 +754,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp 7551/255',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'rakel'
 },
 {
@@ -762,7 +762,7 @@ export const catridgePartsData = [
     title:'Üst Rakel Hp Ce390/281a',
     brand:'VPATech',
     model:'HP series',
-    price:'5.00',
+    //:'5.00',
     type: 'rakel'
 },
 {
@@ -770,7 +770,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) 1005/285A',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'karatron'
 },
 {
@@ -778,7 +778,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Canon Ir 2016',
     brand:'VPATech',
     model:'Canon series',
-    price:'10.00',
+    //:'10.00',
     type: 'karatron'
 },
 {
@@ -786,7 +786,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Canon 2520',
     brand:'VPATech',
     model:'Canon series',
-    price:'13.00',
+    //:'13.00',
     type: 'karatron'
 },
 {
@@ -794,7 +794,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 314/125/731',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'karatron'
 },
 {
@@ -802,7 +802,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 740/270',
     brand:'VPATech',
     model:'HP series',
-    price:'7.50',
+    //:'7.50',
     type: 'karatron'
 },
 {
@@ -810,7 +810,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 1010/2612A',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'karatron'
 },
 {
@@ -818,7 +818,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 105/205',
     brand:'VPATech',
     model:'HP series',
-    price:'5.00',
+    //:'5.00',
     type: 'karatron'
 },
 {
@@ -826,7 +826,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 1320',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'karatron'
 },
 {
@@ -834,7 +834,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 201A/CF410A',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'karatron'
 },
 {
@@ -842,7 +842,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 505',
     brand:'VPATech',
     model:'HP series',
-    price:'2.00',
+    //:'2.00',
     type: 'karatron'
 },
 {
@@ -850,7 +850,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 7516',
     brand:'VPATech',
     model:'HP series',
-    price:'6.00',
+    //:'6.00',
     type: 'karatron'
 },
 {
@@ -858,7 +858,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp 7551/CE390',
     brand:'VPATech',
     model:'HP series',
-    price:'3.50',
+    //:'3.50',
     type: 'karatron'
 },
 {
@@ -866,7 +866,7 @@ export const catridgePartsData = [
     title:'Karatron (Pcr) Hp CF 217/219',
     brand:'VPATech',
     model:'HP series',
-    price:'4.00',
+    //:'4.00',
     type: 'karatron'
 },
 ]

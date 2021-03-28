@@ -39,9 +39,9 @@ class Ink extends Component {
           <h4 className="card-title">{item.title}</h4>
           <p className="card-brand">{item.brand}</p>
           <p className="card-model">{item.model}</p>
-          <p className="card-price">{item.price} AZN
+          {/* <p className="card-price">{item.price} AZN
           <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-          </p>    
+          </p>     */}
         </div>
       </article>
     }

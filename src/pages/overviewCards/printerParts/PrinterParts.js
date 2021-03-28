@@ -63,13 +63,11 @@ showCards(){
         </div>
         <div className="card-footer">
           <h4 className="card-title">{item.title}</h4>
-          {/* <div className='card-des'> */}
-            <p className="card-brand">{item.brand}</p>
-            <p className="card-model">{item.model}</p>
-            {/* <p className="card-price">{item.price} AZN
-            <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </p>     */}
-          {/* </div> */}
+          <p className="card-brand">{item.brand}</p>
+          <p className="card-model">{item.model}</p>
+          {/* <p className="card-price">{item.price} AZN
+          <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
+          </p>     */}
         </div>
       </article>
     });
