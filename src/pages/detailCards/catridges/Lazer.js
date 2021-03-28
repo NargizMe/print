@@ -11,7 +11,6 @@ import { faTags, faAngleDoubleUp, faAngleDoubleLeft } from '@fortawesome/free-so
 import { catridgeData } from '../../../main/catridgeData';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -107,7 +106,6 @@ class Lazer extends Component {
           </div>
           <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
         </section>
-        <Services/>
         <Footer/>
       </div>
     );

@@ -6,7 +6,6 @@ import '../../../App.scss';
 import '../OverViewCards.scss';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -123,7 +122,6 @@ showCards(){
         </div>
         <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
       </div>
-      <Services/>
       <Footer/>
     </div>
     );

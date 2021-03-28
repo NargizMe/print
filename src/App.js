@@ -15,10 +15,13 @@ import PrinterParts from './pages/overviewCards/printerParts/PrinterParts';
 import Baraban from './pages/detailCards/catridgesParts/Baraban';
 import MaqnitVal from './pages/detailCards/catridgesParts/MaqnitVal';
 import Rakel from './pages/detailCards/catridgesParts/Rakel';
+import Karatron from './pages/detailCards/catridgesParts/Karatron';
 
 import Businq from './pages/detailCards/printerParts/Businq';
 import PaperTaker from './pages/detailCards/printerParts/PaperTaker';
 import RubberVal from './pages/detailCards/printerParts/RubberVal';
+import Termoplyonka from './pages/detailCards/printerParts/Termoplyonka';
+import Termoelement from './pages/detailCards/printerParts/Termoelement';
 
 import About from './companents/about/About';
 import Main from './main/Main';
@@ -55,10 +58,13 @@ class App extends Component {
       <Route exact path='/maqnitVal' component={MaqnitVal} />
       <Route exact path='/baraban' component={Baraban} />
       <Route exact path='/rakel' component={Rakel} />
+      <Route exact path='/karatron' component={Karatron} />
 
       <Route exact path='/businq' component={Businq} />
       <Route exact path='/paper-taker' component={PaperTaker} />
       <Route exact path='/rubber-val' component={RubberVal} />
+      <Route exact path='/termoplyonka' component={Termoplyonka} />
+      <Route exact path='/termoelement' component={Termoelement} />
     </Switch>
   );
 }

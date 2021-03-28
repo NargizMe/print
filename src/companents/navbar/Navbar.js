@@ -95,7 +95,7 @@ class NavBar extends Component{
               <NavLink to='/baraban' className='dropdown-link'>Baraban</NavLink>
               <NavLink to='/maqnitVal' className='dropdown-link'>Maqnit val</NavLink>
               <NavLink to='/rakel' className='dropdown-link'>Rakel (Blade)</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Karatron (PCR)</NavLink>
+              <NavLink to='/karatron' className='dropdown-link'>Karatron (PCR)</NavLink>
               <NavLink to='/tuba' className='dropdown-link'>Çiplər</NavLink>
             </div>
           </div>
@@ -107,8 +107,8 @@ class NavBar extends Component{
               <NavLink to='/paper-taker' className='dropdown-link'>Kağız götürən rolik</NavLink>
               <NavLink to='/rubber-val' className='dropdown-link'>Rezin val</NavLink>
               <NavLink to='/businq' className='dropdown-link'>Businqlər</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Termoplyonka</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Termoelement</NavLink>
+              <NavLink to='/termoplyonka' className='dropdown-link'>Termoplyonka</NavLink>
+              <NavLink to='/termoelement' className='dropdown-link'>Termoelement</NavLink>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import $ from 'jquery';
 import { NavLink } from 'react-router-dom';
 import '../../../App.scss';
 import '../DetailCards.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleUp, faTags, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from '../../../companents/footer/Footer';
@@ -12,9 +12,9 @@ import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
 import Banner from '../../../companents/banner/Banner';
 
-import {printerPartsData} from '../../../main/printerPartsData';
+import {catridgePartsData} from '../../../main/catridgePartsData';
 
-class Businq extends Component {
+class Karatron extends Component {
   state = {
     showMore: false,
     img:0,
@@ -25,8 +25,8 @@ class Businq extends Component {
   }
   
   showCards(){
-    return printerPartsData.map(item=>{
-      if(item.type == 'businq'){
+    return catridgePartsData.map(item=>{
+      if(item.type == 'karatron'){
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
           <img
@@ -34,16 +34,15 @@ class Businq extends Component {
           className="card-img"
           alt="məhsul"
           />
-          <br/>
           <button className="card-more" >Ətraflı</button>
         </div>
         <div className="card-footer">
           <h4 className="card-title">{item.title}</h4>
           <p className="card-brand">{item.brand}</p>
           <p className="card-model">{item.model}</p>
-          {/* <p className="card-price">{item.price} AZN
+          <p className="card-price">{item.price} AZN
           <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-          </p>     */}
+          </p>    
         </div>
       </article>
     }
@@ -82,10 +81,10 @@ class Businq extends Component {
           title={this.state.title} 
           model={this.state.model} 
           brand={this.state.brand} /> : null}
-          <NavLink to='/printer-parts' className='back-detail'>
+          <NavLink to='/catridges-parts' className='back-detail'>
             <FontAwesomeIcon className=".back-detail-icon" icon={faAngleDoubleLeft}/> geri
           </NavLink>
-          <h2 className="subtitle">Businqlər</h2>
+          <h2 className="subtitle">Karatron (PCR)</h2>
           <div className="catridges-center">
             {this.showCards()}
           </div>
@@ -97,4 +96,4 @@ class Businq extends Component {
   }
 }
 
-export default Businq;
+export default Karatron;

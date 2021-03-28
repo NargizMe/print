@@ -1,5 +1,6 @@
 .navbar{
-  background-color: var(--mainBlack);
+  // background-color: var(--mainBlack);
+  background: linear-gradient(-180deg, #ac32e4, #7918f2, #4801ff);
 }
 .nav-logo {
   width: 120px;
@@ -11,7 +12,7 @@
 }
 .nav-link {
   display: block;
-  color: var(--primaryColor);
+  color: white;
   text-decoration: none;
   font-weight: bold;
   letter-spacing:var(--mainSpacing);

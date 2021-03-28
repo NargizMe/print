@@ -6,7 +6,6 @@ import '../../../App.scss';
 import '../OverViewCards.scss';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -114,7 +113,7 @@ class CatridgeParts extends Component{
             />
             <button className="drop-menu-card-button" >Rakel (Blade)</button>
           </NavLink>
-          <NavLink className="drop-menu-card" to='/tuba'>
+          <NavLink className="drop-menu-card" to='/karatron'>
             <img
             src={karatron}
             className="drop-menu-card-img"
@@ -139,7 +138,6 @@ class CatridgeParts extends Component{
         </div>
         <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
       </div>
-      <Services/>
       <Footer/>
     </div>
     );

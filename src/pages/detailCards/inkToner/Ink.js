@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTags, faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -87,7 +86,6 @@ class Ink extends Component {
           </div>
           <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
         </section>
-        <Services/>
         <Footer/>
       </div>
     );

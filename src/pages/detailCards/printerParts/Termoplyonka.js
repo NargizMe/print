@@ -14,7 +14,7 @@ import Banner from '../../../companents/banner/Banner';
 
 import {printerPartsData} from '../../../main/printerPartsData';
 
-class Businq extends Component {
+class Termoplyonka extends Component {
   state = {
     showMore: false,
     img:0,
@@ -26,7 +26,7 @@ class Businq extends Component {
   
   showCards(){
     return printerPartsData.map(item=>{
-      if(item.type == 'businq'){
+      if(item.type == 'termoplyonka'){
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
           <img
@@ -34,7 +34,6 @@ class Businq extends Component {
           className="card-img"
           alt="məhsul"
           />
-          <br/>
           <button className="card-more" >Ətraflı</button>
         </div>
         <div className="card-footer">
@@ -85,7 +84,7 @@ class Businq extends Component {
           <NavLink to='/printer-parts' className='back-detail'>
             <FontAwesomeIcon className=".back-detail-icon" icon={faAngleDoubleLeft}/> geri
           </NavLink>
-          <h2 className="subtitle">Businqlər</h2>
+          <h2 className="subtitle">Termoplyonka</h2>
           <div className="catridges-center">
             {this.showCards()}
           </div>
@@ -97,4 +96,4 @@ class Businq extends Component {
   }
 }
 
-export default Businq;
+export default Termoplyonka;

@@ -6,7 +6,6 @@ import '../../../App.scss';
 import '../OverViewCards.scss';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -67,9 +66,9 @@ showCards(){
           {/* <div className='card-des'> */}
             <p className="card-brand">{item.brand}</p>
             <p className="card-model">{item.model}</p>
-            <p className="card-price">{item.price} AZN
+            {/* <p className="card-price">{item.price} AZN
             <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-            </p>    
+            </p>     */}
           {/* </div> */}
         </div>
       </article>
@@ -116,7 +115,7 @@ showCards(){
             />
             <button className="drop-menu-card-button" >Rezin val</button>
           </NavLink>
-          <NavLink className="drop-menu-card" to='/tuba'>
+          <NavLink className="drop-menu-card" to='/termoelement'>
             <img
             src={termoElement}
             className="drop-menu-card-img"
@@ -124,7 +123,7 @@ showCards(){
             />
             <button className="drop-menu-card-button" >Termoelement</button>
           </NavLink>
-          <NavLink className="drop-menu-card" to='/tuba'>
+          <NavLink className="drop-menu-card" to='/termoplyonka'>
             <img
             src={termoPlyonka}
             className="drop-menu-card-img"
@@ -141,7 +140,6 @@ showCards(){
         </div>
         <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
       </div>
-      <Services/>
       <Footer/>
     </div>
     );

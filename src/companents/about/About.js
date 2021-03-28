@@ -3,12 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './About.css';
 import '../../App.scss';
 import Footer from '../footer/Footer';
-import Services from '../services/Services';
 import NavBar from '../navbar/Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram} from "@fortawesome/free-brands-svg-icons";
-import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
-import logo from '../../img/agLogo.png';
 import $ from "jquery"; 
 
 class About extends Component{
@@ -52,7 +47,6 @@ class About extends Component{
         </div>
         </div>
       </section>
-      <Services/>
       <Footer/>
       </div>
     );

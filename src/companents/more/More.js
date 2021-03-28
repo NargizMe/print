@@ -90,7 +90,7 @@ class More extends Component {
         <div className='more-info'>
           <h1 className='more-info-name'>{this.props.title}</h1>
           <h1 className='more-info-price'>{this.props.price}
-          <FontAwesomeIcon className="more-info-icon" icon={faTags}/>
+          {/* <FontAwesomeIcon className="more-info-icon" icon={faTags}/> */}
           </h1>
           <table>
             <tr>

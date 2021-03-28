@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp, faTags, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from '../../../companents/footer/Footer';
-import Services from '../../../companents/services/Services';
 import More from '../../../companents/more/More';
 import Backdrop from '../../../UI/Backdrop/Backdrop';
 import NavBar from '../../../companents/navbar/Navbar';
@@ -41,9 +40,9 @@ class RubberVal extends Component {
           <h4 className="card-title">{item.title}</h4>
           <p className="card-brand">{item.brand}</p>
           <p className="card-model">{item.model}</p>
-          <p className="card-price">{item.price} AZN
+          {/* <p className="card-price">{item.price} AZN
           <FontAwesomeIcon className="card-footer-icon" icon={faTags}/>
-          </p>    
+          </p>     */}
         </div>
       </article>
     }
@@ -91,7 +90,6 @@ class RubberVal extends Component {
           </div>
           <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
         </section>
-        <Services/>
         <Footer/>
       </div>
     );

@@ -4,7 +4,6 @@ import '../App.scss';
 import NavBar from '../companents/navbar/Navbar';
 import Footer from '../companents/footer/Footer';
 import Panel from '../companents/banner/Banner';
-import Services from '../companents/services/Services';
 import Cards from '../companents/cards/Cards';
 import LittleBanner from '../companents/littleBanner/LittleBanner';
 
@@ -15,7 +14,6 @@ function Main() {
       <Panel/>
       <Cards/>
       <LittleBanner/>
-      <Services/>
       <Footer/>
     </div>
   );
