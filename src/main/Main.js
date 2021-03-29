@@ -8,6 +8,7 @@ import Services from '../companents/services/Services';
 import Panel from '../companents/banner/Banner';
 import Cards from '../companents/cards/Cards';
 import LittleBanner from '../companents/littleBanner/LittleBanner';
+import Video from '../companents/video/Video';
 
 class Main extends Component {
   render(){
@@ -17,6 +18,7 @@ class Main extends Component {
         <Panel/>
         <Services/>
         <Cards/>
+        <Video/>
         <LittleBanner/>
         <Footer/>
       </div>

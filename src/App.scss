@@ -4,6 +4,7 @@ html{
     --mainBlack: #2b2a29;
     --mainWhite: #fff;
     --mainGray: #bdbaba;
+    --darkGray: #808291;
     --mainTransition: all 0.13s linear;
     --mainSpacing: 0.103rem;
     --iconFont: 1.3rem;
@@ -126,9 +127,9 @@ a{
     height: 250px;
     // background-color: #b7f7f7;
     padding: 15px 0;
-    &:nth-child(even) {
+    &:nth-child(odd) {
         background-color: #edffff;
-    //   background: #ffeded
+    //   background-color: #ffeded
     }
     &:first-child{
       height: auto;

@@ -4,6 +4,7 @@ import './About.css';
 import '../../App.scss';
 import Footer from '../footer/Footer';
 import NavBar from '../navbar/Navbar';
+import Banner from '../banner/Banner';
 import $ from "jquery"; 
 
 class About extends Component{
@@ -23,6 +24,7 @@ class About extends Component{
     return (
       <div className='container'>
         <NavBar/>
+        <Banner/>
       <section className="about" id="about">
         <h2 className="subtitle-about">Haqqımızda</h2>
         <div className="about-center">

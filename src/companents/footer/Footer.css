@@ -2,7 +2,7 @@
     /* background: linear-gradient(-180deg, #ac32e4, #7918f2, #4801ff); */
 }
 footer{
-    background: var(--mainBlack);
+    background: linear-gradient(-180deg, #ac32e4, #7918f2, #4801ff);
     padding: var(--mainPadding);
     position: relative;
 }
