@@ -1,8 +1,8 @@
 .all{
-    background: linear-gradient(-180deg, #ac32e4, #7918f2, #4801ff);
+    /* background: linear-gradient(-180deg, #ac32e4, #7918f2, #4801ff); */
 }
 footer{
-    /* background: var(--mainBlack); */
+    background: var(--mainBlack);
     padding: var(--mainPadding);
     position: relative;
 }
@@ -68,9 +68,8 @@ footer h1{
     transform: translateY(-10%);
     cursor: pointer;
 }
-.services{
+/* .services{
     padding: var(--mainPadding);
-    /* background-color: var(--mainBlack); */
 }
 .service {
 text-align: center;
@@ -82,7 +81,6 @@ display: inline-block;
 font-size: 33px;
 }
 .service-title {
-/* text-transform: uppercase; */
 font-family: "Lato", sans-serif;
 letter-spacing: var(--mainSpacing);
 color: var(--mainWhite);
@@ -130,4 +128,4 @@ color: var(--mainWhite);
     margin-left: 0;
     margin-right: 0;
 }
-}
+} */

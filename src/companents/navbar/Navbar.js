@@ -4,9 +4,7 @@ import './Navbar.scss';
 import '../../App.scss';
 import $ from "jquery"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars} from "@fortawesome/free-solid-svg-icons";
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
-import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import {faBars, faCaretDown, faCaretRight} from "@fortawesome/free-solid-svg-icons";
 import logo from '../../img/agLogo.png';
 
 class NavBar extends Component{

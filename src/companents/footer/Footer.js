@@ -13,9 +13,7 @@ class Footer extends Component{
 render(){
     return(
         <div className='all'>
-        <section className="services" id="services">
-            {/* <h2 className="title">Xidmətlərimiz</h2>
-            <div className="under-line"></div> */}
+        {/* <section className="services" id="services">
             <div className="section-center services-center">
                 <article className="service">
                 <span className="service-icon">
@@ -53,7 +51,7 @@ render(){
                 </div>
                 </article>
             </div>
-        </section>
+        </section> */}
         <footer id="footer">
             <div className="footer-container">
                 <div className="contact-info">
