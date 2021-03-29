@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { NavLink } from 'react-router-dom';
-import ReactPlayer from "react-player";
 import './Video.css';
 import '../../App.scss';
 import video from '../../img/video/video.mp4';
