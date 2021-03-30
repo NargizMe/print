@@ -22,27 +22,30 @@ class Panel extends Component{
       //     <img src={background} />
       //   </div>
       // </OwlCarousel>
-      <Carousel className='hero' autoPlay infiniteLoop interval='2500'>
-        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
-       url(${mainBanner1}) center/cover no-repeat` }}>
-          <p className="banner-text">Yüksək keyfiyyətli və tanınmış brend olan 10 ildən artıq
-           xidmət göstərən <span>AZToner</span> katricləri həm sərfəlidir, həm də printerlərinizə ziyan vurmur.</p>
-        </div>
-        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
-          url(${mainBanner2}) center/cover no-repeat` }}>
-          <div class="animated-title">
-            <div class="text-top">
-              <div>
-                <span>mimicking</span>
-                <span>apple's design</span>
-              </div>
-            </div>
-            <div class="text-bottom">
-              <div>for the win!</div>
-            </div>
-          </div>
-        </div>
-      </Carousel>
+      // <Carousel className='hero' autoPlay infiniteLoop interval='2500'>
+      //   <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+      //  url(${mainBanner1}) center/cover no-repeat` }}>
+      //     <p className="banner-text">Yüksək keyfiyyətli və tanınmış brend olan 10 ildən artıq
+      //      xidmət göstərən <span>AZToner</span> katricləri həm sərfəlidir, həm də printerlərinizə ziyan vurmur.</p>
+      //   </div>
+      //   <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+      //     url(${mainBanner2}) center/cover no-repeat` }}>
+      //     <div class="animated-title">
+      //       <div class="text-top">
+      //         <div>
+      //           <span>mimicking</span>
+      //           <span>apple's design</span>
+      //         </div>
+      //       </div>
+      //       <div class="text-bottom">
+      //         <div>for the win!</div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </Carousel>
+      <div>
+        <img src={mainBanner1} style={{width:'100%', height:'100%'}} />
+      </div>
     );
   } 
 }
