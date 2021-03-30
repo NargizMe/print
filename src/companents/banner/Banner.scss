@@ -1,0 +1,133 @@
+/* .hero {
+width: 80%;
+align-self: center;
+} */
+.hero-img{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(0,0,0,0.5); */
+} 
+.hero-img img{
+  width: 430px;
+  height: 430px;
+}
+.banner-text{
+  position: absolute;
+  top: -15px;
+  font-size: 30px;
+  text-align: left;
+  width: 450px;
+  /* font-weight: bold; */
+  font-family: "Lato", sans-serif;
+  letter-spacing: var(--mainSpacing);
+  line-height: 40px;
+  left: 17px;
+}
+.banner-text span{
+  font-weight: bolder;
+}
+.carousel .carousel-status {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 10px;
+  color: #fff;
+}
+.carousel .control-dots .dot {
+  transition: opacity .25s ease-in;
+  opacity: .3;
+  filter: alpha(opacity=30);
+  background: var(--primaryColor);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid var(--primaryColor);
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid var(--primaryColor);
+}
+.carousel .thumbs {
+  transition: all .15s ease-in;
+  transform: translate3d(0, 0, 0);
+  display: none;
+  list-style: none;
+  white-space: nowrap;
+}
+@media screen and (max-width: 415px) {
+  .hero {
+    /* background-image: none !important; */
+    justify-content: center;
+  }
+  .banner-text{
+    display: none;
+  }
+}
+@media screen and (max-width: 992px){
+  /* .hero-banner{
+    display: none;
+  } */
+  .banner-text{
+    font-size: 20px;
+  }
+}
+
+span{
+  margin: 0;
+  padding: 0;
+}
+
+.end-left{
+  margin-left: -235px;
+}
+
+.end-right{
+  margin-right: -117.5px;
+}
+.outline{
+  position: absolute;
+  top: 20px;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 80px; 
+}
+.wrapper-background {
+  width: 100%;
+  height: 100%; 
+  background-color: black;
+  position: absolute;
+  left: -400px;
+}
+
+#slide {
+  position: absolute;
+  left: -400px;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  color: blue;
+  font-size: 30px;
+}
+
+.wrapper:hover {
+  #slide {
+    transition: 1s;
+    left: 0;
+  }
+  .wrapper-background {
+    transition: 1s;
+    left: 0;
+  }
+}

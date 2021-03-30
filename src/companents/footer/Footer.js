@@ -60,10 +60,10 @@ render(){
                         Azərbaycan, Bakı</small>
                     <small className="contact-knowledge">
                         <FontAwesomeIcon icon={faPhoneSquareAlt} className="contact-icons"/>
-                        (+99412)498 59 05</small>
+                        (+99412)493 75 09</small>
                     <small className="contact-knowledge">
                         <FontAwesomeIcon icon={faMobileAlt} className="contact-icons"/>
-                        (+99450)200 19 73</small>
+                        (+99470)200 19 73</small>
                     <small className="contact-knowledge">
                         <FontAwesomeIcon icon={faFax} className="contact-icons"/>
                         (+99412)493 34 46

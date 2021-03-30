@@ -7,8 +7,9 @@ import Footer from '../companents/footer/Footer';
 import Services from '../companents/services/Services';
 import Panel from '../companents/banner/Banner';
 import Cards from '../companents/cards/Cards';
-import LittleBanner from '../companents/littleBanner/LittleBanner';
+import SetUpBanner from '../companents/setUpBanner/SetUpBanner';
 import Video from '../companents/video/Video';
+import UnisellBanner from '../companents/unisellBanner/UnisellBanner';
 
 class Main extends Component {
   render(){
@@ -18,8 +19,9 @@ class Main extends Component {
         <Panel/>
         <Services/>
         <Cards/>
+        <UnisellBanner/>
         <Video/>
-        <LittleBanner/>
+        <SetUpBanner/>
         <Footer/>
       </div>
     );

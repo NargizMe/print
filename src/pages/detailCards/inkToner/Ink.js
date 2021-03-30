@@ -3,7 +3,7 @@ import $ from 'jquery';
 import '../../../App.scss';
 import '../DetailCards.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTags, faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
 import Footer from '../../../companents/footer/Footer';
 import More from '../../../companents/more/More';
@@ -70,7 +70,7 @@ class Ink extends Component {
     return (
       <div className="container" id='container'>
         <NavBar/>
-        <Banner/>
+        <Banner />
         <section className="catridges" id="featured">
           {this.state.showMore ? <Backdrop /> : null}
           {this.state.showMore ? <More 

@@ -1,13 +1,14 @@
 import React, {Component} from "react";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-// import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
 import $ from "jquery"; 
-import './Banner.css';
+import './Banner.scss';
 import '../../App.scss';
-import background from "../../img/banner.jpg";
+
+import mainBanner1 from "../../img/mainBanner1.jpg";
+import mainBanner2 from "../../img/mainBanner2.jpg";
 
 class Panel extends Component{
-    
   render(){
     return (
       // <OwlCarousel className='owl-theme' loop margin={3} nav>
@@ -21,25 +22,24 @@ class Panel extends Component{
       //     <img src={background} />
       //   </div>
       // </OwlCarousel>
-      // <Carousel className='hero'>
-      //   {/* style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
-      //  url(${background}) center/cover no-repeat` }} */}
-      //   <div className='hero-img'>
-      //     <img src={background} />
-      //     {/* <p className="legend">Legend 1</p> */}
-      //   </div>
-      //   <div className='hero-img'>
-      //     <img src={background} />
-      //     {/* <p className="legend">Legend 2</p> */}
-      //   </div>
-      //   <div className='hero-img'>
-      //     <img src={background} />
-      //     {/* <p className="legend">Legend 3</p> */}
-      //   </div>
-      // </Carousel>
-        <div className='hero-img' >   
-           <img src={background}></img> 
+      <Carousel className='hero' autoPlay infiniteLoop interval='2500'>
+        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+       url(${mainBanner1}) center/cover no-repeat` }}>
+          <p className="banner-text">Yüksək keyfiyyətli və tanınmış brend olan 10 ildən artıq
+           xidmət göstərən <span>AZToner</span> katricləri həm sərfəlidir, həm də printerlərinizə ziyan vurmur.</p>
         </div>
+        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+          url(${mainBanner2}) center/cover no-repeat` }}>
+          <div class="wrapper">
+            <div class="wrapper-background">
+              <p id="slide">Salam</p>
+            </div>
+          </div>
+        </div>
+      </Carousel>
+        // <div className='hero-img' >   
+        //    <img src={background}></img> 
+        // </div>
     );
   } 
 }

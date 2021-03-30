@@ -56,9 +56,9 @@ render(){
     return(
         <div className="services-center">
             <article className="service will-fadeIn">
-            <span className="service-icon">
+            <div className="service-icon">
                 <FontAwesomeIcon icon={faWallet}/>
-            </span>
+            </div>
             <div className="service-info">
                 <h3 className="service-title">Münasib Qiymət</h3>
                 <p className="service-text">
@@ -68,9 +68,9 @@ render(){
             </div>
             </article>
             <article className="service will-fadeIn">
-            <span className="service-icon">
+            <div className="service-icon">
                 <FontAwesomeIcon icon={faCheckSquare}/>
-            </span>
+            </div>
             <div className="service-info">
                 <h3 className="service-title">Yüksək Keyfiyyət</h3>
                 <p className="service-text">
@@ -80,9 +80,9 @@ render(){
             </div>
             </article>
             <article className="service will-fadeIn">
-            <span className="service-icon">
+            <div className="service-icon">
                 <FontAwesomeIcon icon={faStackOverflow}/>
-            </span>
+            </div>
             <div className="service-info">
                 <h3 className="service-title">Məhsul Çeşidi</h3>
                 <p className="service-text">

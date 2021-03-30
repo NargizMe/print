@@ -1,0 +1,31 @@
+.set-up-banner{
+    display: flex;
+    justify-content: space-between;
+    max-height: 150px;
+    margin: 40px 50px;
+    padding: var(--mainPadding);
+    border: 2px solid var(--mainGray);
+}
+.set-up-banner-text{
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    width: 350px;
+}
+.set-up-banner-img{
+    text-align: center;
+    width: 50%;
+    /* background-size: 100px 30px; */
+}
+.set-up-banner-img img{
+    height: 100%;
+}
+@media screen and (max-width: 775px){
+    .set-up-banner-img{
+        display: none;
+    }
+    .set-up-banner-text{
+        width: 100%;
+        font-size: 25px;
+    }
+}
