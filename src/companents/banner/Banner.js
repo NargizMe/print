@@ -22,24 +22,29 @@ class Panel extends Component{
       //     <img src={background} />
       //   </div>
       // </OwlCarousel>
-      <Carousel className='hero' autoPlay infiniteLoop interval='2500'>
-        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
-       url(${mainBanner1}) center/cover no-repeat` }}>
-          <p className="banner-text">Yüksək keyfiyyətli və tanınmış brend olan 10 ildən artıq
-           xidmət göstərən <span>AZToner</span> katricləri həm sərfəlidir, həm də printerlərinizə ziyan vurmur.</p>
+      // <Carousel className='hero' autoPlay infiniteLoop interval='2500'>
+      //   <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+      //  url(${mainBanner1}) center/cover no-repeat` }}>
+      //     <p className="banner-text">Yüksək keyfiyyətli və tanınmış brend olan 10 ildən artıq
+      //      xidmət göstərən <span>AZToner</span> katricləri həm sərfəlidir, həm də printerlərinizə ziyan vurmur.</p>
+      //   </div>
+      //   <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
+      //     url(${mainBanner2}) center/cover no-repeat` }}>
+      //     <div class="box">
+      //       <div class="title">
+      //         <span class="block"></span>
+      //         <h1>Kaio Almeida<span></span></h1>
+      //       </div>
+      //       <div class="role">
+      //         <div class="block"></div>
+      //         <p>UI Dev designer</p>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </Carousel>
+        <div className='hero-img' >   
+           <img src={mainBanner1}></img> 
         </div>
-        <div className='hero-img' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
-          url(${mainBanner2}) center/cover no-repeat` }}>
-          <div class="wrapper">
-            <div class="wrapper-background">
-              <p id="slide">Salam</p>
-            </div>
-          </div>
-        </div>
-      </Carousel>
-        // <div className='hero-img' >   
-        //    <img src={background}></img> 
-        // </div>
     );
   } 
 }

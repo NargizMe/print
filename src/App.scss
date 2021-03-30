@@ -12,6 +12,10 @@ html{
     --mainPadding: 1rem 2rem;
     --lightShadow: 2px 5px 3px 4px rgba(0, 0, 0, 0.25);
     --darkShadow: 4px 10px 5px 6px rgba(0, 0, 0, 0.5);
+
+    --primary-color: #6CD9CE;
+  --secondary-color: #D93BA1;
+  --complimentary-color: #2E2473;
 }
 body{
     background-color: var(--mainWhite);
