@@ -27,18 +27,18 @@ import About from './companents/about/About';
 import Main from './main/Main';
 
 class App extends Component {
-  componentDidMount(){
-    window.addEventListener('scroll', this.handleScroll);
-  };
+  // componentDidMount(){
+  //   window.addEventListener('scroll', this.handleScroll);
+  // };
 
-  handleScroll() {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-      $(".up").css("color","var(--primaryColor)");
-    } 
-    else{
-      $(".up").css("color","var(--mainBlack)");
-    }
-  };
+  // handleScroll() {
+  //   if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+  //     $(".up").css("color","var(--primaryColor)");
+  //   } 
+  //   else{
+  //     $(".up").css("color","var(--mainBlack)");
+  //   }
+  // };
 
   render(){
   return (

@@ -27,8 +27,9 @@ footer h1{
     font-size: var(--secondTextFont);
     font-family: "Lato", sans-serif;
     color: white;
-    margin-right: 25px;
-    margin-bottom: 13px;
+    /* margin-right: 25px; */
+    /* margin-bottom: 13px; */
+    padding: var(--mainPadding);
 }
 .footer-container{
     display: flex;
@@ -62,6 +63,7 @@ footer h1{
     color: var(--primaryColor);
     font-size: var(--iconFont);
     transition: all 0.13s linear;
+    padding: 5px;
 }
 .contact-icons-link:hover {
     color: var(--mainWhite);

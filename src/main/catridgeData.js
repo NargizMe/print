@@ -121,8 +121,6 @@ import laserOriginal120 from '../img/catriges/laser(original)120.jpg';
 import laserOriginal121 from '../img/catriges/laser(original)121.jpg';
 import laserOriginal122 from '../img/catriges/laser(original)122.jpg';
 import laserOriginal123 from '../img/catriges/laser(original)123.jpg';
-import laserAnaloq1 from '../img/catriges/laserAnaloq1.jpg';
-import laserAnaloq2 from '../img/catriges/laser(analoq)2.jpg';
 import laserAnaloq3 from '../img/catriges/laser(analoq)3.jpg';
 import laserAnaloq4 from '../img/catriges/laser(analoq)4.jpeg';
 import laserAnaloq5 from '../img/catriges/laser(analoq)5.jpeg';
@@ -152,8 +150,6 @@ import laserAnaloq28 from '../img/catriges/laser(analoq)28.jpg';
 import laserAnaloq29 from '../img/catriges/laser(analoq)29.jpg';
 import laserAnaloq30 from '../img/catriges/laser(analoq)30.jpg';
 import laserAnaloq31 from '../img/catriges/laser(analoq)31.jpg';
-import laserAnaloq32 from '../img/catriges/laser(analoq)32.jpg';
-import laserAnaloq33 from '../img/catriges/laser(analoq)33.jpg';
 import laserAnaloq34 from '../img/catriges/laser(analoq)34.jpg';
 import laserAnaloq35 from '../img/catriges/laser(analoq)35.jpg';
 import laserAnaloq36 from '../img/catriges/laser(analoq)36.jpg';
@@ -1159,22 +1155,6 @@ export const catridgeData = [
         originality: 'orijinal'
     },
     {
-        img: laserAnaloq1,
-        title:'Kartric Canon 052A',
-        brand:'Canon',
-        //:'25.00',
-        type: 'laser',
-        originality: 'analoq'
-    },
-    {
-        img: laserAnaloq2,
-        title:'Kartric Canon 052H',
-        brand:'Canon',
-        //:'35.00',
-        type: 'laser',
-        originality: 'analoq'
-    },
-    {
         img: laserAnaloq3,
         title:'Kartric CF 540X (203X)',
         brand:'Static Control',
@@ -1403,22 +1383,6 @@ export const catridgeData = [
         title:'Kartric HP CF543A (203A)',
         brand:'HP',
         //:'36.50',
-        type: 'laser',
-        originality: 'analoq'
-    },
-    {
-        img: laserAnaloq32,
-        title:'Kartric HP 05A (CE505A)',
-        brand:'HP',
-        //:'21.00',
-        type: 'laser',
-        originality: 'analoq'
-    },
-    {
-        img: laserAnaloq33,
-        title:'Kartric HP 11A (Q6511A)',
-        brand:'HP',
-        //:'55.00',
         type: 'laser',
         originality: 'analoq'
     },
