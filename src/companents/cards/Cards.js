@@ -57,11 +57,11 @@ class Cards extends Component{
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
                         <h1 className='flip-card-front-title'>Toner</h1> 
-                        <img src={toner2} alt="Avatar" />
+                        <img src={toner1} alt="Avatar" />
                     </div>
                     <div className="flip-card-back">
                         <h1 className='flip-card-front-title'>Toner</h1> 
-                        <img src={toner1} alt="Avatar" />
+                        <img src={toner2} alt="Avatar" />
                     </div>
                 </div>
             </NavLink>

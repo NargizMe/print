@@ -4,8 +4,6 @@ import $ from "jquery";
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 // import { Carousel } from 'react-responsive-carousel';
 
-// import  LiquidSwipe  from './liquidswipe';
-
 import './Banner.scss';
 import '../../App.scss';
 
@@ -14,28 +12,15 @@ import mainBanner2 from "../../img/mainBanner2.jpg";
 import sign from "../../img/sign.png";
 
 class Panel extends React.PureComponent{
+
   // componentDidMount(){
-  //   if($('.slide.selected')){
-  //     console.log('salam');
-  //   }
-  //   if($('li').hasClass('slide selected')){
-  //     console.log('salam');
-  //     $('.animated-title > div.text-top div').css('animation', 'showTopText 1s');
-  //     $('.animated-title > div.text-bottom div').css('animation', 'showBottomText  0.5s');
-  //   }
-  //   $('.carousel .control-next.control-arrow').on('click', ()=>{
-  //     console.log('salam');
-  //     $('.animated-title > div.text-top div').css('animation', 'showTopText 1s');
-  //     $('.animated-title > div.text-bottom div').css('animation', 'showBottomText  0.5s');
-  //   })
-  //   $('.carousel .control-next.control-arrow').on('click', ()=>{
-  //     console.log('salam');
-  //     $('.animated-title > div.text-bottom div').css('animation', 'showBottomText  0.5s');
-  //   })
-  //   setTimeout(function(){ console.log('salam'); }, 2500);
+  //   this.repeatAnimation();
   // }
-  // componentsToRender = [] 
-  // backgroundColors = [] 
+
+  // repeatAnimation = () => {
+  //   this.timer = setInterval(() => 
+  //   ($('.banner p').css('animation', 'slideFromLeft 3s ease-in-out')), 3000);
+  // };
 
   showBanner = () => {
     $('.second-banner').fadeToggle();
@@ -82,10 +67,6 @@ class Panel extends React.PureComponent{
         <div className='second-banner' style={{ background: `linear-gradient(rgba(0,0,0,0.05), rgba(0, 0, 0, 0.05)),
         url(${mainBanner2}) center/cover no-repeat` }}></div>
       </div>
-      // <LiquidSwipe
-      //   components={componentsToRender}
-      //   colors={backgroundColors}
-      // />
     );
   } 
 }

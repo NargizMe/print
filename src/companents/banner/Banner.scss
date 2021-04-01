@@ -1,7 +1,4 @@
-/* .hero {
-width: 80%;
-align-self: center;
-} */
+
 .hero-img{
   width: 100%;
   height: 70vh;
@@ -63,7 +60,7 @@ align-self: center;
 }
 .banner p {
   text-align: center;
-  color: white;
+  color: #cfffe8;
   // background-color: white;
   padding: 8px 0;
   margin-bottom: 0;
@@ -172,72 +169,4 @@ align-self: center;
   .banner-text{
     font-size: 20px;
   }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-@keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
-  40%, 60% { transform: translate3d(0, 50%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-@keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-.animated-title {
-  color: var(--mainWhite);
-  font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 40vmin;
-  text-align: start;
-}
-.animated-title > div {
-  height: 50%;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-.animated-title > div div {
-  font-size: 35px;
-  padding: 2vmin 0;
-  position: absolute;
-}
-.animated-title > div div span {
-  display: block;
-}
-.animated-title > div.text-top {
-  border-bottom: 1vmin solid orange;
-  top: 0;
-}
-.animated-title > div.text-top div {
-  // animation: showTopText 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  bottom: 0;
-  transform: translate(0, 100%);
-}
-.animated-title > div.text-top div span:first-child {
-  color: var(--primaryColor);
-  background-color: var(--secondary-color);
-  padding-top: 13px;
-}
-// .animated-title > div.text-top div span:last-child {
-//   background-color: var(--mainBlack);
-//   padding-bottom: 13px;
-// }
-.animated-title > div.text-bottom {
-  bottom: 0;
-}
-.animated-title > div.text-bottom div {
-  // animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
-  animation-fill-mode: forwards;
-  top: 0;
-  transform: translate(0, -100%);
-  background-color: var(--primary-color);
-  width: 100%;
 }
