@@ -24,7 +24,7 @@
   margin-bottom: 10px;
 }
 .nav-link:hover {
-  color: var(--mainWhite);
+  color: var(--primaryColor);
   cursor: pointer;
 }
 .nav-header {
@@ -98,18 +98,18 @@
   display: none;
   position: absolute;
   background-color:var(--mainWhite);
-  min-width: 100px;
+  width: 170px;
   z-index: 500;
   border-radius: 3px;
 }
 
 .dropdown-link {
   color: var(--mainBlack);
-  padding: 8px 10px;
+  padding: 10px;
   text-decoration: none;
   display: block;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 15.5px;
 }
 
 .dropdown-link:hover {

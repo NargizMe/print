@@ -9,17 +9,20 @@ import '../../App.scss';
 
 import mainBanner1 from "../../img/banner2.jpg";
 import mainBanner2 from "../../img/mainBanner2.jpg";
-import sign from "../../img/sign.png";
 
 class Panel extends React.PureComponent{
 
   // componentDidMount(){
   //   this.repeatAnimation();
+  //   setInterval(() => {
+  //     $('.banner p').css('animation-play-state', 'running');
+  //   }, 3000);
+  //   $('.banner p').css('animation-play-state', 'paused');
   // }
 
   // repeatAnimation = () => {
   //   this.timer = setInterval(() => 
-  //   ($('.banner p').css('animation', 'slideFromLeft 3s ease-in-out')), 3000);
+  //   {$('.banner p').css('animation', 'slideFromLeft 3s ease-in-out')}, 3000);
   // };
 
   showBanner = () => {

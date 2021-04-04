@@ -68,6 +68,12 @@
   line-height: var(--lineHeight);
   animation: slideFromLeft 3s ease-in-out;
   line-height: 30px;
+
+  // backface-visibility: hidden;
+  // animation-name: slideFromLeft;
+  // animation-duration: 5s;
+  // animation-iteration-count: infinite;
+  // animation-timing-function: linear;
 }
 .banner p > span {
   font-weight: bold;

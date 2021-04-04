@@ -45,7 +45,7 @@
   height: 100%;
   // border-radius: 13px;
 }
-.flip-card-front-title{
+.flip-card-title{
   position: absolute;
   top: 67%;
   left: 50%;
@@ -56,7 +56,6 @@
   padding: 4px 20px;
   letter-spacing: var(--mainSpacing);
 }
-
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
