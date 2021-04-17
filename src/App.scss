@@ -57,6 +57,22 @@ a{
     animation: upDown 1s ease-in-out infinite;
     z-index:10;
 }
+@keyframes upDown {
+    0% {
+      transform: translateY(-3px);
+    }
+    50% {
+      transform: translateY(6px);
+    }
+    100% {
+      transform: translateY(-3px);
+    }
+}
+@media screen and (max-width: 670px) {
+    .up{
+        left: 95%;
+    }
+}
 // .fixed {
 //     position: fixed;
 //     top: 0;

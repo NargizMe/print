@@ -103,7 +103,7 @@ showCards(){
             />
             <button className="drop-menu-card-button" >Tuba</button>
           </NavLink>
-          <NavLink className="drop-menu-card" to='/tuba'>
+          <NavLink className="drop-menu-card" to='/ink-catridge'>
             <img
             src={ink}
             className="drop-menu-card-img"

@@ -50,7 +50,7 @@ class PrinterParts extends Component{
     this.setState({showMore:false});
   }
 
-showCards(){
+  showCards(){
     return printerPartsData.map(item=>{
       return <article className={`card ${item.type} ${item.originality}`} onClick={this.showMore}>
         <div className="card-img-container">
@@ -134,7 +134,7 @@ showCards(){
           </NavLink>
         </section>
         <div className='drop-menu-detail'>
-            {this.showCards()}
+          {this.showCards()}
         </div>
         <a href='#container' className="up" ><FontAwesomeIcon icon={faAngleDoubleUp} /></a>
       </div>

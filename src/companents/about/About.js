@@ -40,7 +40,6 @@ class About extends Component{
           sahəsində innovativ yeniliklərə imza atır. Şirkətin texnoloji 
           bazası və personalı ən son standartlara uyğun formalaşmışdır.
           </p>
-          <a href="https://unisell.az/" target='_balnk' className="btn-primary">unisell.az</a>
           </article>
           <div class="map">
           <iframe 

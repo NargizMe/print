@@ -16,15 +16,15 @@
   width: 70%;
   border: 1px solid var(--mainGray);
 }
-.more-small-img{
-  width: 110px;
-  height: 20%;
-  margin-right: 7px;
-  border: 1px solid var(--mainGray);
-}
 .more-big-img{
   height: 100%;
   width: 100%;
+}
+.more-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
 }
 .more-info-name{
   font-family: "Lato", sans-serif;
@@ -43,6 +43,7 @@
 .more-info table{
   font-family: "Lato", sans-serif;
   height: 60px;
+  /* margin: 30px 0; */
 }
 .more-info table .name{
   font-weight: bold;
@@ -60,22 +61,66 @@
   transform: scale(0.9);
   color: var(--primaryColor);
 }
-.img-zoom-result {
+.more-contact {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 200px;
+  max-width: 100%;
+  height: 45%;
+  display: block;
+}
+.more-contact-knowledge{
+  margin-top: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.more-contact-icons{
+  color: orange;
+  font-size: 20px;
+  margin-right: 13px;
+}
+/* .img-zoom-result {
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  height: 50%;
 }
 .img-zoom-lens {
   position: absolute;
   border: 1px solid #d4d4d4;
   width: 50px;
   height: 50px;
-}
+} */
 .more-info-icon{
   position: absolute;
   color: var(--mainBlack);
   font-size: 16px;
   top: 90%;
   left: 100%;
+}
+@media screen and (max-width: 670px) {
+  .more{
+    width: 280px;
+    height: 190px;
+    padding: 0.5rem;
+  }
+  .more-info-name{
+    font-size: 14px;
+  }
+  .more-close{
+    font-size: 21px;
+    left: 93%;
+    top: 1%;
+  }
+  .more-info table td{
+    font-size: 10px;
+  }
+  .more-contact-knowledge{
+    font-size: 8.5px;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+  .more-contact-icons{
+    font-size: 10px;
+    margin-right: 4px;
+  }
 }

@@ -60,7 +60,7 @@
 }
 .banner p {
   text-align: center;
-  color: #cfffe8;
+  color: azure;
   // background-color: white;
   padding: 8px 0;
   margin-bottom: 0;
@@ -80,6 +80,9 @@
   color: var(--mainBlack);
   background-color: var(--primaryColor);
   padding: 0 7px;
+}
+.hiden-text{
+  display: none;
 }
 @keyframes slideFromRight {
   0% {

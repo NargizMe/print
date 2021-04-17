@@ -36,13 +36,12 @@ handleScroll() {
         {/* <ReactPlayer url="https://youtu.be/BmLZAa6Z27U" className='video'/> */}
         </div>
         <article className="video-info hideme">
-          <h1>Set up Catridge in under a minute.</h1>
+          <h1>Refill Katric in under two minutes.</h1>
           <p>
           Kainat Print şirkəti hər zaman yeliklərə üstünlük verib və bu 
           sahəsində innovativ yeniliklərə imza atır. Şirkətin texnoloji 
           bazası və personalı ən son standartlara uyğun formalaşmışdır.
           </p>
-          <a href="https://unisell.az/" target='_balnk' className="btn-primary">unisell.az</a>
         </article>
       </div>
     );

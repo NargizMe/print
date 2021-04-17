@@ -1,0 +1,103 @@
+.price-cards-center {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0 2rem;
+}
+.price-card {
+  margin-bottom: 2rem;
+  transition: var(--mainTransition);
+  height: 260px;
+  min-width: 227px;
+  max-width: 227px;
+  flex: 0 0 calc(23% - 4.5rem);
+  border-radius: 13px;
+  border: 1.5px solid orange;
+}
+.card-more{
+  position: absolute;
+  color: var(--mainBlack);
+  top: 7%;
+  left: -0.3%;
+  font-size: 15px;
+  border: 1px solid var(--primaryColor);
+  padding: 4px 8px;
+  background: linear-gradient(to right, var(--mainBlack) 50%, var(--primaryColor) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s linear;
+  font-weight: bold;
+}
+.price-card:hover {
+  
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: var(--darkShadow);
+}
+.price-card-img-container {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}
+// .price-card-img {
+//   width: 100%;
+//   height: 100%;
+//   border-top-right-radius: 13px;
+//   border-top-left-radius: 13px;
+// }
+.price-card-small-img{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--mainGray);
+  border-left: none;
+  display: none;
+}
+.price-card-small-img:nth-child(2){
+  top: 35%;
+}
+.price-card-small-img:nth-child(1){
+  // border-top-left-radius: 13px;
+  top: 6%;
+}
+.price-card-footer-icon {
+  position: absolute;
+  color: var(--mainBlack);
+  font-size: 13px;
+  top: 85%;
+  left: 100%;
+}
+.price-card-footer {
+  text-align: center;
+  padding-right: 18px;
+  padding-left: 8px;
+}
+.price-card-title {
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  font-size: 15px;
+  margin: 0;
+  color: var(--mainBlack);
+}
+.price-card-brand {
+  color: var(--mainBlack);
+  align-self: center;
+  font-size: 13px;
+  margin: 8px 0;
+}
+.price-card-model {
+  display: none;
+}
+.price-card-price {
+  color: var(--mainBlack);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}

@@ -3,20 +3,29 @@ import {Route, Switch} from 'react-router-dom';
 import './App.scss';
 import $ from "jquery"; 
 
+// Katriclər
 import Tuba from './pages/detailCards/catridges/Tuba';
 import Lazer from './pages/detailCards/catridges/Lazer';
+import InkCatridge from './pages/detailCards/catridges/InkCatridge';
+
+// Mürəkkəb və toner
 import Ink from './pages/detailCards/inkToner/Ink';
 import Toner from './pages/detailCards/inkToner/Toner';
 
+// OverView
 import Catridges from './pages/overviewCards/catridges/Catridges';
+import SpareParts from './pages/overviewCards/spareParts/SpareParts';
 import CatridgeParts from './pages/overviewCards/catridgeParts/CatridgeParts';
 import PrinterParts from './pages/overviewCards/printerParts/PrinterParts';
 
+// Katric hissələri
 import Baraban from './pages/detailCards/catridgesParts/Baraban';
 import MaqnitVal from './pages/detailCards/catridgesParts/MaqnitVal';
 import Rakel from './pages/detailCards/catridgesParts/Rakel';
 import Karatron from './pages/detailCards/catridgesParts/Karatron';
+import Chip from './pages/detailCards/catridgesParts/Chip';
 
+// Printer hissələri
 import Businq from './pages/detailCards/printerParts/Businq';
 import PaperTaker from './pages/detailCards/printerParts/PaperTaker';
 import RubberVal from './pages/detailCards/printerParts/RubberVal';
@@ -27,18 +36,6 @@ import About from './companents/about/About';
 import Main from './main/Main';
 
 class App extends Component {
-  // componentDidMount(){
-  //   window.addEventListener('scroll', this.handleScroll);
-  // };
-
-  // handleScroll() {
-  //   if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-  //     $(".up").css("color","var(--primaryColor)");
-  //   } 
-  //   else{
-  //     $(".up").css("color","var(--mainBlack)");
-  //   }
-  // };
 
   render(){
   return (
@@ -48,10 +45,13 @@ class App extends Component {
 
       <Route exact path='/tuba' component={Tuba}  />
       <Route exact path='/laser' component={Lazer}  />
+      <Route exact path='/ink-catridge' component={InkCatridge}  />
+
       <Route exact path='/ink' component={Ink}  />
       <Route exact path='/toner' component={Toner}  />
 
       <Route exact path='/catridges' component={Catridges} />
+      <Route exact path='/spare-parts' component={SpareParts} />
       <Route exact path='/catridges-parts' component={CatridgeParts} />
       <Route exact path='/printer-parts' component={PrinterParts} />
 
@@ -59,6 +59,7 @@ class App extends Component {
       <Route exact path='/baraban' component={Baraban} />
       <Route exact path='/rakel' component={Rakel} />
       <Route exact path='/karatron' component={Karatron} />
+      <Route exact path='/chip' component={Chip} />
 
       <Route exact path='/businq' component={Businq} />
       <Route exact path='/paper-taker' component={PaperTaker} />

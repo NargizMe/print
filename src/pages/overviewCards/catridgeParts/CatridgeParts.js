@@ -121,7 +121,7 @@ class CatridgeParts extends Component{
             />
             <button className="drop-menu-card-button" >Karatron</button>
           </NavLink>
-          <NavLink className="drop-menu-card" to='/tuba'>
+          <NavLink className="drop-menu-card" to='/chip'>
             <img
             src={chip}
             className="drop-menu-card-img"

@@ -17,7 +17,7 @@ import Banner from '../../../companents/banner/Banner';
 import { catridgeData } from '../../../main/catridgeData';
 
 jQueryBridget( 'isotope', Isotope, $ );
-class Catriges extends Component {
+class Tuba extends Component {
   state = {
     showMore: false,
     img:0,
@@ -118,4 +118,4 @@ class Catriges extends Component {
   }
 }
 
-export default Catriges;
+export default Tuba;

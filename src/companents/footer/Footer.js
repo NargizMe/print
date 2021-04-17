@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 // Fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhoneSquareAlt, faFax,
-    faMobileAlt, faEnvelope, faWallet, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
-import {faInstagram, faFacebookSquare, faStackOverflow} from "@fortawesome/free-brands-svg-icons";
+    faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {faInstagram, faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
 // import $ from 'jquery';
 import './Footer.css';
 import "../../App.scss";
@@ -73,7 +73,7 @@ render(){
                         office@kainatprint.az</small>
                     <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="contact-icons-link">
                         <FontAwesomeIcon icon={faInstagram}/> </a>
-                    <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="contact-icons-link">
+                    <a href="https://m.facebook.com/profile.php?id=101877275281794&ref=content_filter" target="_blank" className="contact-icons-link">
                         <FontAwesomeIcon icon={faFacebookSquare}/> </a>
                 </div>
             </div>

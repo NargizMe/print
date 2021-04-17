@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './SetUpBanner.css';
 import '../../App.scss';
-import littleBanner from "../../img/littleBanner.jpeg";
+import setUpBanner from "../../img/setUpBanner.png";
 import $ from "jquery"; 
 
 class SetUpBanner extends Component{
@@ -55,7 +55,7 @@ class SetUpBanner extends Component{
         </h1>
         {/* style={{ background: `url(${littleBanner}) no-repeat`}} */}
         <div className='set-up-banner-img' >  
-          <img src={littleBanner}></img>
+          <img src={setUpBanner}></img>
         </div>
     </div>
     );

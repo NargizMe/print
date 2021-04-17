@@ -10,6 +10,7 @@ import Cards from '../companents/cards/Cards';
 import SetUpBanner from '../companents/setUpBanner/SetUpBanner';
 import Video from '../companents/video/Video';
 import UnisellBanner from '../companents/unisellBanner/UnisellBanner';
+import PriceCards from '../companents/priceCards/PriceCards';
 
 class Main extends Component {
   render(){
@@ -21,6 +22,7 @@ class Main extends Component {
         <Cards/>
         <UnisellBanner/>
         <Video/>
+        {/* <PriceCards/> */}
         <SetUpBanner/>
         <Footer/>
       </div>

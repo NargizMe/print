@@ -4,7 +4,8 @@ import './Navbar.scss';
 import '../../App.scss';
 import $ from "jquery"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faBars, faCaretDown, faCaretRight} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faCaretDown, faCaretRight, faMobileAlt} from "@fortawesome/free-solid-svg-icons";
+import {faInstagram, faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
 import logo from '../../img/agLogo.png';
 
 class NavBar extends Component{
@@ -75,10 +76,10 @@ class NavBar extends Component{
                 </div>
               </div>
               <div className='dropdown-side'>
-                <NavLink to='/tuba' className='dropdown-link'>İNK</NavLink>
+                <NavLink to='/ink-catridge' className='dropdown-link'>İNK</NavLink>
                 <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
                 <div className='side-link'>
-                  <NavLink to='/tuba' className='dropdown-link'>Orijinal</NavLink>
+                  <NavLink to='/ink-catridge' className='dropdown-link'>Orijinal</NavLink>
                 </div>
               </div>
             </div>
@@ -86,29 +87,43 @@ class NavBar extends Component{
           <NavLink to='/toner' className='nav-link'>Toner</NavLink>
           <NavLink to='/ink' className='nav-link'>Mürəkkəblər</NavLink>
           <div className="dropdown">
-            <NavLink className="nav-link" to='/catridges-parts'>Katric Hissələri
-            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </NavLink>
+            <div className='nav-link'>Ehtiyyat Hissələri
+              <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
+            </div>
             <div className="dropdown-content">
-              <NavLink to='/baraban' className='dropdown-link'>Baraban</NavLink>
-              <NavLink to='/maqnitVal' className='dropdown-link'>Maqnit val</NavLink>
-              <NavLink to='/rakel' className='dropdown-link'>Rakel (Blade)</NavLink>
-              <NavLink to='/karatron' className='dropdown-link'>Karatron (PCR)</NavLink>
-              <NavLink to='/tuba' className='dropdown-link'>Çiplər</NavLink>
+              <div className='dropdown-side'>
+                <NavLink to='/catridges-parts' className='dropdown-link'>Katric Hissələri</NavLink>
+                <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
+                <div className='side-link'>
+                  <NavLink to='/baraban' className='dropdown-link'>Baraban</NavLink>
+                  <NavLink to='/maqnitVal' className='dropdown-link'>Maqnit val</NavLink>
+                  <NavLink to='/rakel' className='dropdown-link'>Rakel (Blade)</NavLink>
+                  <NavLink to='/karatron' className='dropdown-link'>Karatron (PCR)</NavLink>
+                  <NavLink to='/chip' className='dropdown-link'>Çiplər</NavLink>
+                </div>
+              </div>
+              <div className='dropdown-side'>
+                <NavLink to='/printer-parts' className='dropdown-link'>Printer Hissələri</NavLink>
+                <FontAwesomeIcon icon={faCaretRight} className='right-icon'/>
+                <div className='side-link'>
+                  <NavLink to='/baraban' className='dropdown-link'>Baraban</NavLink>
+                  <NavLink to='/maqnitVal' className='dropdown-link'>Maqnit val</NavLink>
+                  <NavLink to='/rakel' className='dropdown-link'>Rakel (Blade)</NavLink>
+                  <NavLink to='/karatron' className='dropdown-link'>Karatron (PCR)</NavLink>
+                  <NavLink to='/chip' className='dropdown-link'>Çiplər</NavLink>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="dropdown">
-            <NavLink className="nav-link" to='/printer-parts'>Printer Hissələri
-            <FontAwesomeIcon icon={faCaretDown} className='down-icon'/>
-            </NavLink>
-            <div className="dropdown-content">
-              <NavLink to='/paper-taker' className='dropdown-link'>Kağız götürən rolik</NavLink>
-              <NavLink to='/rubber-val' className='dropdown-link'>Rezin val</NavLink>
-              <NavLink to='/businq' className='dropdown-link'>Businqlər</NavLink>
-              <NavLink to='/termoplyonka' className='dropdown-link'>Termoplyonka</NavLink>
-              <NavLink to='/termoelement' className='dropdown-link'>Termoelement</NavLink>
-            </div>
+        </div>
+        <div className='nav-contact'>
+          <div className='nav-icons'>
+            <a href="https://www.instagram.com/kainat.print/?fbclid=IwAR19azY6wrsgrXGz8sAU85yFU1XKKTATUnPJsad3a2t_pEysyuH0zyBLT7I" target="_blank" className="navbar-social-icon">
+              <FontAwesomeIcon icon={faInstagram}/> </a>
+            <a href="https://m.facebook.com/profile.php?id=101877275281794&ref=content_filter" target="_blank" className="navbar-social-icon">
+              <FontAwesomeIcon icon={faFacebookSquare}/> </a>
           </div>
+          <p className="navbar-number">(+99470) 200 19 73</p>
         </div>
         {/* <form className='find'>
           <input type='text' placeholder="Axtar" className='search-input'></input>
