@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import { NavLink } from 'react-router-dom';
 import './Video.css';
 import '../../App.scss';
-import video from '../../img/video/video.mp4';
+import ReactPlayer from 'react-player';
+import video from '../../img/video/kainat_video.mp4';
 import $ from "jquery"; 
 
 class Video extends Component{
@@ -25,18 +25,13 @@ handleScroll() {
     return (
       <div className="video-center">
         <div class="video-center-video hideme">
-        <iframe src={video}
-          frameborder='0'
-          allow='autoplay; encrypted-media'
-          allowfullscreen
-          title='video'
-          className='video'
-        />
-        {/* <source src={video} type="video/mp4" className='video'/> */}
-        {/* <ReactPlayer url="https://youtu.be/BmLZAa6Z27U" className='video'/> */}
+          <video controls='true' className='video'>
+            <source src={video} type="video/mp4" />
+          </video>
+        {/* <ReactPlayer url="https://youtu.be/wIPiOQBjXjM" className='video' height= "100%" width='100%' /> */}
         </div>
         <article className="video-info hideme">
-          <h1>Refill Katric in under two minutes.</h1>
+          <h1>Refill Katric in two minutes.</h1>
           <p>
           Kainat Print şirkəti hər zaman yeliklərə üstünlük verib və bu 
           sahəsində innovativ yeniliklərə imza atır. Şirkətin texnoloji 
