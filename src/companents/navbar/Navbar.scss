@@ -18,7 +18,7 @@
   letter-spacing:var(--mainSpacing);
   transition: var(--mainTransition);
   font-size: 15.5px;
-  font-family: "Lato", sans-serif;
+  font-family: var(--mainFont);
   background-color: transparent;
   border: none;
   margin-bottom: 10px;

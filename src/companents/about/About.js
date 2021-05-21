@@ -30,13 +30,13 @@ class About extends Component{
         <div className="about-center">
           <article className="about-info">
           <p>
-          Kainat Print şirkəti ölkədə ən geniş şəbəkəsi olan şirkətlərindən 
+          Kainat Print şirkəti ölkədə ən geniş şəbəkəsi olan şirkətlərdən 
           biridir. Şirkət 2005-ci ildə təsis olunmuşdur. Şirkətimiz müxtəlif 
           növ katriclərin satışı, dolumu və s xidmətləri ilə fəaliyyətdədir. 
           Peşəkar komandamızın olması və peşəkar xidmətləri təqdim etməklə ölkədə böyük müəssisələrlə uzunmüddətli əməkdaşlıq müqavilələrinə sahibik.
           </p>
           <p>
-          Kainat Print şirkəti hər zaman yeliklərə üstünlük verib və bu 
+          Kainat Print şirkəti hər zaman yeniliklərə üstünlük verib və bu 
           sahəsində innovativ yeniliklərə imza atır. Şirkətin texnoloji 
           bazası və personalı ən son standartlara uyğun formalaşmışdır.
           </p>

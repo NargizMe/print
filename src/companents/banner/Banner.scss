@@ -42,7 +42,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Lato", sans-serif;
+  font-family: var(--mainFont);
 }
 .banner-logo {
   font-size: 60px;
@@ -127,7 +127,7 @@
   text-align: left;
   width: 450px;
   /* font-weight: bold; */
-  font-family: "Lato", sans-serif;
+  font-family: var(--mainFont);
   letter-spacing: var(--mainSpacing);
   line-height: 40px;
   left: 17px;

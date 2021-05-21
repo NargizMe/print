@@ -4,6 +4,7 @@
 .service {
 text-align: center;
 margin-bottom: 3rem;
+// padding-bottom: 15px;
 }
 .service-icon {
 color: var(--primaryColor);
@@ -24,7 +25,7 @@ margin-top: 10px;
 }
 .service-title {
 /* text-transform: uppercase; */
-font-family: "Lato", sans-serif;
+font-family: var(--mainFont);
 letter-spacing: var(--mainSpacing);
 /* color: var(--mainWhite); */
 }
@@ -32,7 +33,7 @@ letter-spacing: var(--mainSpacing);
 width: 80%;
 margin: auto auto 0 auto;
 line-height: 1.5;
-font-family: "Lato", sans-serif;
+font-family: var(--mainFont);
 letter-spacing: var(--mainSpacing);
 color: var(--darkGray);
 }

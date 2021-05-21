@@ -62,7 +62,7 @@ render(){
             <div className="service-info">
                 <h3 className="service-title">Münasib Qiymət</h3>
                 <p className="service-text">
-                Premium ketfiyyətli Aztoner katricləri printerlərinizə
+                Premium keyfiyyətli Aztoner katricləri printerlərinizə
                 ziyan vermir, əksinə çap xərclərinizi minimuma endirir.
                 </p>
             </div>
@@ -75,7 +75,7 @@ render(){
                 <h3 className="service-title">Yüksək Keyfiyyət</h3>
                 <p className="service-text">
                 Aztoner katricləri ISO standartlarına uyğun istehsal olunur. Bu da "məhsulun təhlükəsiz, etibarlı və
-                ketfiyyətli olması" deməkdir.
+                keyfiyyətli olması" deməkdir.
                 </p>
             </div>
             </article>

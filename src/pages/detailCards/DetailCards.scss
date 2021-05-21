@@ -88,7 +88,7 @@
   padding-left: 8px;
 }
 .card-title {
-  font-family: "Lato", sans-serif;
+  font-family: var(--mainFont);
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   font-size: 15px;
@@ -118,7 +118,7 @@ text-align: center;
 }
 .card-menu-btn {
 border-radius: 3px;
-font-family: "Lato", sans-serif;
+font-family: var(--mainFont);
 font-size: 15px;
 padding: 5px 10px;
 margin-right: 5px;

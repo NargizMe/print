@@ -77,7 +77,7 @@
   padding-left: 8px;
 }
 .price-card-title {
-  font-family: "Lato", sans-serif;
+  font-family: var(--mainFont);
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   font-size: 15px;
